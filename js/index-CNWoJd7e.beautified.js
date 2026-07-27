@@ -33936,7 +33936,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                     endTime: "02:00"
                 }), p.jsx(uL, {
                     targetDate: c.wedding_date
-                }), p.jsx(xL, {}), p.jsx(DF, {}), p.jsx(OL, {}), p.jsx(d3, {}), p.jsx(m9, {}), p.jsx(h9, {}), p.jsx(_V, {}), p.jsx(IV, {
+                }), p.jsx(xL, {}), p.jsx(DF, {}), p.jsx(OL, {}), p.jsx(d3, {}), p.jsx(m9, {}), p.jsx(h9, {}), p.jsx(_V, {}), p.jsx(SpecialNotesSection, {}), p.jsx(IV, {
                     name1: c.couple_name_1,
                     name2: c.couple_name_2,
                     date: c.wedding_date
@@ -33944,6 +33944,64 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
             })]
         })
     };
+
+function SpecialNotesSection() {
+    return p.jsx("section", {
+        className: "section-padding bg-gradient-to-b from-ivory via-[hsl(var(--peach))]/30 to-ivory relative overflow-hidden",
+        dir: "rtl",
+        children: p.jsx("div", {
+            className: "max-w-3xl mx-auto relative px-6",
+            children: p.jsxs(z.div, {
+                initial: {
+                    opacity: 0,
+                    y: 20
+                },
+                whileInView: {
+                    opacity: 1,
+                    y: 0
+                },
+                viewport: {
+                    once: !0
+                },
+                transition: {
+                    duration: .8
+                },
+                className: "text-center flex flex-col items-center relative z-10",
+                children: [
+                    p.jsx("h2", {
+                        className: "font-decorative font-bold text-3xl sm:text-4xl md:text-5xl text-[hsl(var(--gold))] mb-2 tracking-wide drop-shadow-sm",
+                        children: "ملاحظات خاصة"
+                    }),
+                    p.jsx("p", {
+                        className: "text-[hsl(var(--plum))]/85 font-body text-lg sm:text-xl font-medium mb-8",
+                        children: "إرشادات لضيوفنا الكرام"
+                    }),
+                    p.jsxs("div", {
+                        className: "w-full bg-[hsl(var(--peach))]/45 backdrop-blur-md rounded-3xl p-6 sm:p-8 md:p-10 border border-[hsl(var(--gold))]/25 shadow-md text-right",
+                        children: [
+                            p.jsx("h3", {
+                                className: "font-display font-bold text-xl sm:text-2xl text-[hsl(var(--gold))] mb-4",
+                                children: "نلفت انتباهكم إلى أن"
+                            }),
+                            p.jsxs("div", {
+                                className: "flex items-center justify-start gap-3 text-right",
+                                children: [
+                                    p.jsx("span", {
+                                        className: "inline-block w-2.5 h-2.5 rounded-full bg-[hsl(var(--gold))] shrink-0"
+                                    }),
+                                    p.jsx("p", {
+                                        className: "font-body text-lg sm:text-xl text-[hsl(var(--plum))]/90 font-medium leading-relaxed",
+                                        children: "يرجى الحضور قبل 20 دقيقة من موعد الحفل"
+                                    })
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            })
+        })
+    });
+}
 
 function KC() {
     const [e, t] = g.useState(null), [n, r] = g.useState(null), [s, i] = g.useState(!0), [o, a] = g.useState(!1);
