@@ -33743,7 +33743,7 @@ const OB = 1,
                     className: "absolute inset-0 h-full w-full object-cover",
                     style: {
                         opacity: r === "idle" || r === "loading" ? 0 : 1,
-                        filter: "grayscale(100%) brightness(1.38) contrast(1.22)"
+                        filter: "grayscale(100%) brightness(1.08)"
                     },
                     onPlaying: a,
                     onEnded: c,
@@ -33760,7 +33760,7 @@ const OB = 1,
                     alt: n("intro.envelopeAlt"),
                     className: "h-full w-full object-cover",
                     style: {
-                        filter: "grayscale(100%) brightness(1.38) contrast(1.22)"
+                        filter: "grayscale(100%) brightness(1.08)"
                     },
                     loading: "eager",
                     fetchPriority: "high"
