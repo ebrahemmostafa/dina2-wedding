@@ -22219,7 +22219,7 @@ function ht() {
 const d8 = 1,
     h8 = "b5865835-bb32-4e13-b21d-458f22ba7efc",
     f8 = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
-    p8 = "./assets/l5e-videos/hero-bg.mp4",
+    p8 = "./assets/l5e-videos/hero-bg.mp4?v=2",
     m8 = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/b5865835-bb32-4e13-b21d-458f22ba7efc/hero-bg.mp4",
     g8 = "hero-bg.mp4",
     v8 = 17444023,
@@ -22236,7 +22236,7 @@ const d8 = 1,
         content_type: y8,
         created_at: w8
     },
-    rw = "./assets/l5e-images/hero-poster-DsqR-n3x.jpg";
+    rw = "./assets/l5e-images/hero-poster-DsqR-n3x.jpg?v=2";
 
 function x8(e, t) {
     const [n, r, s] = e.split("-").map(Number), i = new Date(Date.UTC(n, r - 1, s));
@@ -33660,7 +33660,7 @@ function NB() {
 const OB = 1,
     IB = "bc44ecd3-1d47-4384-97ba-25ed65803916",
     $B = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
-    DB = "./assets/l5e-videos/intro-video.mp4",
+    DB = "./assets/l5e-videos/intro-video.mp4?v=2",
     MB = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/bc44ecd3-1d47-4384-97ba-25ed65803916/intro-video.mp4",
     LB = "intro-video.mp4",
     FB = 2251403,
@@ -33680,7 +33680,7 @@ const OB = 1,
     zB = 1,
     WB = "368a6e1c-2ee3-44d6-917b-6e8d2aac0410",
     HB = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
-    KB = "./assets/l5e-images/envelope-frame.jpg",
+    KB = "./assets/l5e-images/envelope-frame.jpg?v=2",
     qB = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/368a6e1c-2ee3-44d6-917b-6e8d2aac0410/envelope-frame.jpg",
     GB = "envelope-frame.jpg",
     QB = 943760,
