@@ -22432,7 +22432,7 @@ function _8({
                         className: "w-full max-w-[240px] sm:max-w-[290px] md:max-w-[330px] mx-auto -mt-1 mb-2 text-center",
                         children: [
                             p.jsxs("div", {
-                                className: "flex justify-between items-center font-display font-bold text-3xl sm:text-4xl md:text-5xl text-[hsl(var(--gold))] drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wide",
+                                className: "flex justify-between items-center font-decorative font-bold text-3xl sm:text-4xl md:text-5xl text-[hsl(var(--gold))] drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wide",
                                 children: [
                                     p.jsx("span", {
                                         children: "أحمد"
@@ -22441,7 +22441,7 @@ function _8({
                                     })
                                 ]
                             }), p.jsx("div", {
-                                className: "font-display font-bold text-2xl sm:text-3xl md:text-4xl text-[hsl(var(--gold))] mt-1 drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wider",
+                                className: "font-decorative font-bold text-2xl sm:text-3xl md:text-4xl text-[hsl(var(--gold))] mt-1 drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wider",
                                 children: "آل عامري"
                             })
                         ]
@@ -22938,7 +22938,7 @@ function uL({
                 transition: {
                     duration: .7
                 },
-                className: "font-display text-5xl md:text-7xl text-[hsl(var(--plum))] mb-2 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
+                className: "font-decorative text-3xl sm:text-4xl md:text-5xl text-[hsl(var(--plum))] mb-2 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
                 children: t("countdown.title")
             }), p.jsx(z.p, {
                 initial: {
