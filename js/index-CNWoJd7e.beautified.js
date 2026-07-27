@@ -22429,10 +22429,10 @@ function _8({
                             duration: 1.1,
                             delay: 1.0
                         },
-                        className: "w-full max-w-[240px] sm:max-w-[290px] md:max-w-[330px] mx-auto -mt-1 mb-2 text-center",
+                        className: "w-full max-w-[300px] sm:max-w-[450px] md:max-w-[600px] mx-auto -mt-2 mb-2 text-center",
                         children: [
                             p.jsxs("div", {
-                                className: "flex justify-between items-center font-decorative font-bold text-3xl sm:text-4xl md:text-5xl text-[hsl(var(--gold))] drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wide",
+                                className: "flex justify-between items-center font-decorative font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[hsl(var(--gold))] drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wide",
                                 children: [
                                     p.jsx("span", {
                                         children: "أحمد"
@@ -22441,7 +22441,7 @@ function _8({
                                     })
                                 ]
                             }), p.jsx("div", {
-                                className: "font-decorative font-bold text-2xl sm:text-3xl md:text-4xl text-[hsl(var(--gold))] mt-1 drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wider",
+                                className: "font-decorative font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[hsl(var(--gold))] mt-3 drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wider",
                                 children: "آل عامري"
                             })
                         ]
