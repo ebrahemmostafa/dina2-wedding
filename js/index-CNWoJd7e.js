@@ -33045,34 +33045,6 @@ function _V() {
                     })]
                 }), p.jsxs("div", {
                     children: [p.jsx(wn, {
-                        htmlFor: "email",
-                        className: "text-[hsl(var(--plum))] font-display tracking-wide text-base",
-                        children: "Email"
-                    }), p.jsx(Bi, {
-                        id: "email",
-                        type: "email",
-                        value: a,
-                        onChange: _ => l(_.target.value),
-                        className: "mt-2 royal-input px-3 py-2",
-                        placeholder: "you@example.com",
-                        maxLength: 255,
-                        autoComplete: "email"
-                    })]
-                }), r === "yes" && p.jsxs("div", {
-                    children: [p.jsx(wn, {
-                        htmlFor: "allergies",
-                        className: "text-[hsl(var(--plum))] font-display tracking-wide text-base",
-                        children: "Allergies or dietary requirements"
-                    }), p.jsx(Bi, {
-                        id: "allergies",
-                        value: c,
-                        onChange: _ => u(_.target.value),
-                        className: "mt-2 royal-input px-3 py-2",
-                        placeholder: "e.g. vegetarian, gluten-free, nut allergy",
-                        maxLength: 300
-                    })]
-                }), p.jsxs("div", {
-                    children: [p.jsx(wn, {
                         htmlFor: "message",
                         className: "text-[hsl(var(--plum))] font-display tracking-wide text-base",
                         children: "A message for the couple"
