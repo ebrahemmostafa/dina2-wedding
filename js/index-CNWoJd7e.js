@@ -33659,7 +33659,7 @@ function NB() {
 const OB = 1,
     IB = "bc44ecd3-1d47-4384-97ba-25ed65803916",
     $B = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
-    DB = "./assets/l5e-videos/intro-video.mp4?v=3",
+    DB = "./assets/l5e-videos/intro-video.mp4?v=4",
     MB = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/bc44ecd3-1d47-4384-97ba-25ed65803916/intro-video.mp4",
     LB = "intro-video.mp4",
     FB = 2251403,
@@ -33679,7 +33679,7 @@ const OB = 1,
     zB = 1,
     WB = "368a6e1c-2ee3-44d6-917b-6e8d2aac0410",
     HB = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
-    KB = "./assets/l5e-images/envelope-frame.jpg?v=3",
+    KB = "./assets/l5e-images/envelope-frame.jpg?v=4",
     qB = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/368a6e1c-2ee3-44d6-917b-6e8d2aac0410/envelope-frame.jpg",
     GB = "envelope-frame.jpg",
     QB = 943760,
@@ -33747,7 +33747,7 @@ const OB = 1,
                     className: "absolute inset-0 h-full w-full object-cover",
                     style: {
                         opacity: r === "idle" || r === "loading" ? 0 : 1,
-                        filter: "grayscale(100%) brightness(1.08)"
+                        filter: "none"
                     },
                     onPlaying: a,
                     onEnded: c,
@@ -33764,7 +33764,7 @@ const OB = 1,
                     alt: n("intro.envelopeAlt"),
                     className: "h-full w-full object-cover",
                     style: {
-                        filter: "grayscale(100%) brightness(1.08)"
+                        filter: "none"
                     },
                     loading: "eager",
                     fetchPriority: "high"
