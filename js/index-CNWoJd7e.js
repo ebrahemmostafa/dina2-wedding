@@ -33936,7 +33936,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                     endTime: "02:00"
                 }), p.jsx(uL, {
                     targetDate: c.wedding_date
-                }), p.jsx(xL, {}), p.jsx(DF, {}), p.jsx(OL, {}), p.jsx(d3, {}), p.jsx(m9, {}), p.jsx(h9, {}), p.jsx(_V, {}), p.jsx(SpecialNotesSection, {}), p.jsx(IV, {
+                }), p.jsx(DF, {}), p.jsx(_V, {}), p.jsx(SpecialNotesSection, {}), p.jsx(IV, {
                     name1: c.couple_name_1,
                     name2: c.couple_name_2,
                     date: c.wedding_date
