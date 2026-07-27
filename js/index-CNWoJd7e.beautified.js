@@ -21864,7 +21864,7 @@ const l8 = {
         "lang.spanish": "العربية",
         "ui.muted": "تشغيل الصوت",
         "ui.unmuted": "كتم الصوت",
-        "hero.subtitle": "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
+        "hero.subtitle": "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
         "hero.location": "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠ | 8:00م",
         "intro.tap": "اضغط للفتح",
         "intro.loading": "جاري التحميل...",
@@ -22018,7 +22018,7 @@ const l8 = {
         "lang.spanish": "العربية",
         "ui.muted": "تشغيل الصوت",
         "ui.unmuted": "كتم الصوت",
-        "hero.subtitle": "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
+        "hero.subtitle": "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
         "hero.location": "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠ | 8:00م",
         "intro.tap": "اضغط للفتح",
         "intro.loading": "جاري التحميل...",
@@ -22380,7 +22380,7 @@ function _8({
                             delay: .5
                         },
                         className: "font-display italic text-base md:text-xl text-[hsl(var(--gold))] mb-3 font-normal tracking-normal text-center leading-relaxed",
-                        children: "قصةٌ كُتبت بالمودة… واكتملت بالوعد."
+                        children: "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ"
                     }), p.jsx(z.p, {
                         initial: {
                             opacity: 0,
@@ -22394,8 +22394,8 @@ function _8({
                             duration: 1,
                             delay: .7
                         },
-                        className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-1",
-                        children: "حفل زفاف"
+                        className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-2 whitespace-pre-line text-center leading-relaxed",
+                        children: "في ليلة يتكللها الفرح والسرور\nنتشرف بدعوتكم حضور حفل زفاف"
                     }), p.jsx(z.img, {
                         src: "assets/l5e-images/letterss.png?v=6",
                         alt: "العروسين",
@@ -22437,12 +22437,12 @@ function _8({
                                     p.jsx("span", {
                                         children: "أحمد"
                                     }), p.jsx("span", {
-                                        children: "دينا"
+                                        children: "وينا"
                                     })
                                 ]
                             }), p.jsx("div", {
                                 className: "font-decorative font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[hsl(var(--gold))] mt-3 drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wider",
-                                children: "آل عامري"
+                                children: "آل العامري"
                             })
                         ]
                     }), p.jsx(z.div, {
@@ -33861,9 +33861,9 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
             },
             c = {
                 couple_name_1: "أحمد",
-                couple_name_2: "دينا",
+                couple_name_2: "وينا",
                 wedding_date: "2026-08-07",
-                hero_subtitle: "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
+                hero_subtitle: "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
                 banquet_location: "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠",
                 banquet_address: "أكتوبر حي اوركييديا، خلف مطعم واحه خطاب، فيلا ٢٠",
                 banquet_maps_url: "https://maps.app.goo.gl/husp36rA4a3gxt887"
