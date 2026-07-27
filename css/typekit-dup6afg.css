@@ -1,0 +1,31 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * classic-script-mn:
+ *   - http://typekit.com/eulas/00000000000000007755955c
+ * span:
+ *   - http://typekit.com/eulas/00000000000000007735c8d2
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2026-03-06 22:18:14 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=dup6afg&ht=tk&f=44311.57139&a=88056013&app=typekit&e=css");
+
+@font-face {
+font-family:"span";
+src:url("https://use.typekit.net/af/c5aa0d/00000000000000007735c8d2/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/c5aa0d/00000000000000007735c8d2/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/c5aa0d/00000000000000007735c8d2/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"classic-script-mn";
+src:url("https://use.typekit.net/af/a8c1bc/00000000000000007755955c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a8c1bc/00000000000000007755955c/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a8c1bc/00000000000000007755955c/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+.tk-span { font-family: "span",serif; }
+.tk-classic-script-mn { font-family: "classic-script-mn",sans-serif; }
