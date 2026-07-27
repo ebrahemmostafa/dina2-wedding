@@ -22579,7 +22579,7 @@ function B8({
 }) {
     const {
         t: o
-    } = ht(), a = o("welcome.kicker"), l = o("welcome.title2"), c = o("welcome.p2"), u = t || "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠", d = r || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(u+(n?", "+n:""))}`;
+    } = ht(), a = o("welcome.kicker"), l = o("welcome.title2"), c = o("welcome.p2"), u = t || "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠", d = r || "https://maps.app.goo.gl/husp36rA4a3gxt887";
     return p.jsxs("section", {
         className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12",
         children: [p.jsx("div", {
@@ -33894,7 +33894,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                 hero_subtitle: "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
                 banquet_location: "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠",
                 banquet_address: "أكتوبر حي اوركييديا، خلف مطعم واحه خطاب، فيلا ٢٠",
-                banquet_maps_url: "https://www.google.com/maps/search/?api=1&query=%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%AD%D9%8A+%D8%A7%D9%88%D8%B1%D9%83%D9%8A%D9%8A%D8%AF%D9%8A%D8%A7+%D8%AE%D9%84%D9%81+%D9%85%D8%B7%D8%B9%D9%85+%D9%88%D8%A7%D8%AD%D9%87+%D8%AE%D8%B7%D8%A7%D8%A8+%D9%81%D9%8A%D9%84%D8%A7+%D9%A2%D9%A0"
+                banquet_maps_url: "https://maps.app.goo.gl/husp36rA4a3gxt887"
             };
         return p.jsxs(p.Fragment, {
             children: [p.jsx("button", {
