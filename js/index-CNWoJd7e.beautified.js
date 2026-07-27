@@ -22396,7 +22396,9 @@ function _8({
                         },
                         className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-4",
                         children: "حفل زفاف"
-                    }), p.jsx(z.h1, {
+                    }), p.jsx(z.img, {
+                        src: "assets/l5e-images/letterss.png?v=6",
+                        alt: "العروسين",
                         initial: {
                             opacity: 0,
                             scale: 0.95,
@@ -22411,8 +22413,7 @@ function _8({
                             duration: 1.1,
                             delay: .9
                         },
-                        className: "font-display font-bold text-[clamp(2.8rem,8vw,5.5rem)] leading-tight text-[hsl(var(--gold))] my-4 drop-shadow-[0_4px_20px_rgba(255,255,255,0.6)] text-center",
-                        children: `${e} & ${t}`
+                        className: "w-48 sm:w-60 md:w-72 max-h-[42vh] h-auto object-contain my-3 drop-shadow-[0_4px_20px_rgba(255,255,255,0.4)]"
                     }), p.jsx(z.div, {
                         initial: {
                             opacity: 0,
