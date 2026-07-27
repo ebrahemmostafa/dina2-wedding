@@ -22397,7 +22397,7 @@ function _8({
                         className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-4",
                         children: "حفل زفاف"
                     }), p.jsx(z.img, {
-                        src: "assets/l5e-images/letters.png?v=1",
+                        src: "assets/l5e-images/letterss.png?v=3",
                         alt: "العروسين",
                         initial: {
                             opacity: 0,
