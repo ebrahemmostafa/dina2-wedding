@@ -21865,7 +21865,7 @@ const l8 = {
         "ui.muted": "تشغيل الصوت",
         "ui.unmuted": "كتم الصوت",
         "hero.subtitle": "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
-        "hero.location": "قاعة الزفاف | 7:00 مساءً",
+        "hero.location": "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠ | 8:00م",
         "intro.tap": "اضغط للفتح",
         "intro.loading": "جاري التحميل...",
         "intro.envelopeAlt": "ظرف الدعوة مع ختم شمعي",
@@ -21874,11 +21874,11 @@ const l8 = {
         "welcome.title2": "",
         "welcome.p1": "نحن في غاية السعادة لمشاركتكم\nهذا اليوم المميز معنا.",
         "welcome.p2": "",
-        "welcome.rsvpBy": "يرجى تأكيد الحضور قبل 28 أغسطس 2026.",
-        "welcome.time": "7:00 مساءً",
+        "welcome.rsvpBy": "يرجى تأكيد الحضور قبل 1 أغسطس 2026.",
+        "welcome.time": "8:00م",
         "countdown.kicker": "",
         "countdown.title": "العد التنازلي",
-        "countdown.subtitle": "حتى 27 يوليو 2027",
+        "countdown.subtitle": "حتى 7 أغسطس 2026",
         "countdown.days": "أيام",
         "countdown.hours": "ساعات",
         "countdown.minutes": "دقائق",
@@ -21886,16 +21886,16 @@ const l8 = {
         "details.kicker": "",
         "details.title": "الزمان والمكان",
         "details.invited": "ننتظركم في",
-        "details.time": "7:00 مساءً",
+        "details.time": "8:00م",
         "details.timeRange": "من {{start}} حتى {{end}}",
         "details.openMaps": "فتح في خرائط جوجل",
         "details.addCalendar": "إضافة إلى التقويم",
         "schedule.kicker": "",
         "schedule.title": "برنامج الحفل",
-        "schedule.ceremony.time": "12:00 مساءً",
+        "schedule.ceremony.time": "8:00م",
         "schedule.ceremony.title": "مراسم الزفاف",
         "schedule.ceremony.desc": "مراسم في الحديقة",
-        "schedule.reception.time": "7:00 مساءً",
+        "schedule.reception.time": "9:00م",
         "schedule.reception.title": "حفل الاستقبال",
         "schedule.reception.desc": "عشاء واحتفال",
         "dress.title": "قواعد اللبس",
@@ -21959,7 +21959,7 @@ const l8 = {
         "rsvp.kicker": "",
         "rsvp.title": "تأكيد الحضور",
         "rsvp.deadline.before": "يرجى الرد قبل ",
-        "rsvp.deadline.date": "28 أغسطس 2026",
+        "rsvp.deadline.date": "1 أغسطس 2026",
         "rsvp.deadline.after": ".",
         "rsvp.attend": "هل ستحضر الحفل؟ *",
         "rsvp.yes": "نعم، سأحضر بكل سرور",
@@ -22004,13 +22004,13 @@ const l8 = {
         "rsvp.err.errDesc": "تعذر إرسال الرد. يرجى المحاولة مرة أخرى.",
         "conf.no.title": "شكراً لإعلامنا",
         "conf.no.body": "نأسف لعدم تمكنك من الحضور، وستكون في قلوبنا في هذا اليوم المميز.",
-        "conf.signature": "— لوتشيا وماتيو",
+        "conf.signature": "— أحمد ودينا",
         "conf.yes.title": "شكراً لتأكيد حضورك",
         "conf.yes.p1": "نحن سعداء جداً بحضورك ومشاركتنا فرحتنا.",
         "conf.yes.p2": "",
-        "conf.yes.p3": "نتطلع بشوق لرؤيتك في 27 يوليو في حفل زفافنا.",
+        "conf.yes.p3": "نتطلع بشوق لرؤيتك في 7 أغسطس في حفل زفافنا.",
         "conf.addCal": "إضافة إلى التقويم",
-        "conf.cancelNote": "إذا تعذر عليك الحضور لاحقاً، يرجى إعلامنا قبل 28 أغسطس.",
+        "conf.cancelNote": "إذا تعذر عليك الحضور لاحقاً، يرجى إعلامنا قبل 1 أغسطس.",
         "footer.madeBy": "تم التصميم بحب بواسطة"
     },
     c8 = {
@@ -22019,7 +22019,7 @@ const l8 = {
         "ui.muted": "تشغيل الصوت",
         "ui.unmuted": "كتم الصوت",
         "hero.subtitle": "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
-        "hero.location": "قاعة الزفاف | 7:00 مساءً",
+        "hero.location": "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠ | 8:00م",
         "intro.tap": "اضغط للفتح",
         "intro.loading": "جاري التحميل...",
         "intro.envelopeAlt": "ظرف الدعوة مع ختم شمعي",
@@ -22028,11 +22028,11 @@ const l8 = {
         "welcome.title2": "",
         "welcome.p1": "نحن في غاية السعادة لمشاركتكم\nهذا اليوم المميز معنا.",
         "welcome.p2": "",
-        "welcome.rsvpBy": "يرجى تأكيد الحضور قبل 28 أغسطس 2026.",
-        "welcome.time": "7:00 مساءً",
+        "welcome.rsvpBy": "يرجى تأكيد الحضور قبل 1 أغسطس 2026.",
+        "welcome.time": "8:00م",
         "countdown.kicker": "",
         "countdown.title": "العد التنازلي",
-        "countdown.subtitle": "حتى 27 يوليو 2027",
+        "countdown.subtitle": "حتى 7 أغسطس 2026",
         "countdown.days": "أيام",
         "countdown.hours": "ساعات",
         "countdown.minutes": "دقائق",
@@ -22040,16 +22040,16 @@ const l8 = {
         "details.kicker": "",
         "details.title": "الزمان والمكان",
         "details.invited": "ننتظركم في",
-        "details.time": "7:00 مساءً",
+        "details.time": "8:00م",
         "details.timeRange": "من {{start}} حتى {{end}}",
         "details.openMaps": "فتح في خرائط جوجل",
         "details.addCalendar": "إضافة إلى التقويم",
         "schedule.kicker": "",
         "schedule.title": "برنامج الحفل",
-        "schedule.ceremony.time": "12:00 مساءً",
+        "schedule.ceremony.time": "8:00م",
         "schedule.ceremony.title": "مراسم الزفاف",
         "schedule.ceremony.desc": "مراسم في الحديقة",
-        "schedule.reception.time": "7:00 مساءً",
+        "schedule.reception.time": "9:00م",
         "schedule.reception.title": "حفل الاستقبال",
         "schedule.reception.desc": "عشاء واحتفال",
         "dress.title": "قواعد اللبس",
@@ -22113,7 +22113,7 @@ const l8 = {
         "rsvp.kicker": "",
         "rsvp.title": "تأكيد الحضور",
         "rsvp.deadline.before": "يرجى الرد قبل ",
-        "rsvp.deadline.date": "28 أغسطس 2026",
+        "rsvp.deadline.date": "1 أغسطس 2026",
         "rsvp.deadline.after": ".",
         "rsvp.attend": "هل ستحضر الحفل؟ *",
         "rsvp.yes": "نعم، سأحضر بكل سرور",
@@ -22158,13 +22158,13 @@ const l8 = {
         "rsvp.err.errDesc": "تعذر إرسال الرد. يرجى المحاولة مرة أخرى.",
         "conf.no.title": "شكراً لإعلامنا",
         "conf.no.body": "نأسف لعدم تمكنك من الحضور، وستكون في قلوبنا في هذا اليوم المميز.",
-        "conf.signature": "— لوتشيا وماتيو",
+        "conf.signature": "— أحمد ودينا",
         "conf.yes.title": "شكراً لتأكيد حضورك",
         "conf.yes.p1": "نحن سعداء جداً بحضورك ومشاركتنا فرحتنا.",
         "conf.yes.p2": "",
-        "conf.yes.p3": "نتطلع بشوق لرؤيتك في 27 يوليو في حفل زفافنا.",
+        "conf.yes.p3": "نتطلع بشوق لرؤيتك في 7 أغسطس في حفل زفافنا.",
         "conf.addCal": "إضافة إلى التقويم",
-        "conf.cancelNote": "إذا تعذر عليك الحضور لاحقاً، يرجى إعلامنا قبل 28 أغسطس.",
+        "conf.cancelNote": "إذا تعذر عليك الحضور لاحقاً، يرجى إعلامنا قبل 1 أغسطس.",
         "footer.madeBy": "تم التصميم بحب بواسطة"
     },
     nw = {
@@ -22396,9 +22396,7 @@ function _8({
                         },
                         className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-4",
                         children: "حفل زفاف"
-                    }), p.jsx(z.img, {
-                        src: "assets/l5e-images/letterss.png?v=3",
-                        alt: "العروسين",
+                    }), p.jsx(z.h1, {
                         initial: {
                             opacity: 0,
                             scale: 0.95,
@@ -22413,7 +22411,8 @@ function _8({
                             duration: 1.1,
                             delay: .9
                         },
-                        className: "w-48 sm:w-60 md:w-72 max-h-[42vh] h-auto object-contain my-3 drop-shadow-[0_4px_20px_rgba(255,255,255,0.4)]"
+                        className: "font-display font-bold text-[clamp(2.8rem,8vw,5.5rem)] leading-tight text-[hsl(var(--gold))] my-4 drop-shadow-[0_4px_20px_rgba(255,255,255,0.6)] text-center",
+                        children: `${e} & ${t}`
                     }), p.jsx(z.div, {
                         initial: {
                             opacity: 0,
@@ -22456,7 +22455,7 @@ function _8({
                             duration: 1,
                             delay: 1.4
                         },
-                        className: "font-display italic text-base md:text-lg text-[hsl(var(--plum))]/75 mt-4 max-w-[22ch] leading-snug whitespace-pre-line",
+                        className: "font-display italic text-base md:text-lg text-[hsl(var(--plum))]/75 mt-4 max-w-md leading-snug whitespace-pre-line",
                         children: s
                     }), p.jsx(z.svg, {
                         "aria-hidden": !0,
@@ -22540,15 +22539,15 @@ const S8 = "2b66b518-489b-4982-af38-67ec60286a6d",
 
 function B8({
     date: e,
-    location: t = "Château de la Couronne, Nouvelle-Aquitaine, France",
+    location: t = "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠",
     address: n,
     mapsUrl: r,
-    startTime: s = "19:00",
+    startTime: s = "20:00",
     endTime: i = "02:00"
 }) {
     const {
         t: o
-    } = ht(), a = o("welcome.kicker"), l = o("welcome.title2"), c = o("welcome.p2"), u = t || "Château de la Couronne, Nouvelle-Aquitaine, France", d = r || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(u+(n?", "+n:""))}`;
+    } = ht(), a = o("welcome.kicker"), l = o("welcome.title2"), c = o("welcome.p2"), u = t || "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠", d = r || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(u+(n?", "+n:""))}`;
     return p.jsxs("section", {
         className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12",
         children: [p.jsx("div", {
@@ -32625,17 +32624,17 @@ function W9({
     }, []);
     const r = () => {
         const s = m => m.toString().padStart(2, "0"),
-            i = new Date(Date.UTC(2027, 6, 27, 17, 0)),
-            o = new Date(Date.UTC(2027, 6, 28, 0, 0)),
+            i = new Date(Date.UTC(2026, 7, 7, 17, 0)),
+            o = new Date(Date.UTC(2026, 7, 8, 0, 0)),
             a = m => `${m.getUTCFullYear()}${s(m.getUTCMonth()+1)}${s(m.getUTCDate())}T${s(m.getUTCHours())}${s(m.getUTCMinutes())}00Z`,
-            l = "حفل زفاف لوتشيا وماتيو",
-            c = "قاعة الزفاف",
+            l = "حفل زفاف أحمد ودينا",
+            c = "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠",
             u = /iPad|iPhone|iPod/.test(navigator.userAgent);
         if (!u) {
-            const m = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(l)}&dates=${a(i)}/${a(o)}&location=${encodeURIComponent(c)}&details=${encodeURIComponent("Lucia & Matteo's Wedding Celebration")}`;
+            const m = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(l)}&dates=${a(i)}/${a(o)}&location=${encodeURIComponent(c)}&details=${encodeURIComponent("Ahmed & Dina's Wedding Celebration")}`;
             if (window.open(m, "_blank", "noopener,noreferrer")) return
         }
-        const d = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Lucia-Matteo//Wedding//EN", "BEGIN:VEVENT", `UID:${Date.now()}@lucia-matteo-wedding`, `DTSTAMP:${a(new Date)}`, `DTSTART:${a(i)}`, `DTEND:${a(o)}`, `SUMMARY:${l}`, `LOCATION:${c}`, "DESCRIPTION:Lucia & Matteo's Wedding Celebration", "END:VEVENT", "END:VCALENDAR"].join(`\r
+        const d = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Ahmed-Dina//Wedding//EN", "BEGIN:VEVENT", `UID:${Date.now()}@ahmed-dina-wedding`, `DTSTAMP:${a(new Date)}`, `DTSTART:${a(i)}`, `DTEND:${a(o)}`, `SUMMARY:${l}`, `LOCATION:${c}`, "DESCRIPTION:Ahmed & Dina's Wedding Celebration", "END:VEVENT", "END:VCALENDAR"].join(`\r
 `);
         if (u) {
             const m = `data:text/calendar;charset=utf-8,${encodeURIComponent(d)}`;
@@ -33743,7 +33742,8 @@ const OB = 1,
                     src: BB.url,
                     className: "absolute inset-0 h-full w-full object-cover",
                     style: {
-                        opacity: r === "idle" || r === "loading" ? 0 : 1
+                        opacity: r === "idle" || r === "loading" ? 0 : 1,
+                        filter: "grayscale(100%) brightness(1.38) contrast(1.22)"
                     },
                     onPlaying: a,
                     onEnded: c,
@@ -33759,6 +33759,9 @@ const OB = 1,
                     src: XB.url,
                     alt: n("intro.envelopeAlt"),
                     className: "h-full w-full object-cover",
+                    style: {
+                        filter: "grayscale(100%) brightness(1.38) contrast(1.22)"
+                    },
                     loading: "eager",
                     fetchPriority: "high"
                 }), r === "idle" && p.jsx(z.p, {
@@ -33852,17 +33855,14 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                     return o.current && (o.current.muted = d, !d && o.current.paused && o.current.play().catch(() => {})), d
                 })
             },
-            c = e || {
-                couple_name_1: "لوتشيا",
-                couple_name_2: "ماتيو",
-                wedding_date: "2027-07-27",
+            c = {
+                couple_name_1: "أحمد",
+                couple_name_2: "دينا",
+                wedding_date: "2026-08-07",
                 hero_subtitle: "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
-                banquet_location: "قاعة الزفاف\n",
-                banquet_address: `16380 Marthon,
-Charente, France
-
-`,
-                banquet_maps_url: "https://www.google.com/maps/search/?api=1&query=Ch%C3%A2teau+de+la+Couronne+Marthon"
+                banquet_location: "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠",
+                banquet_address: "أكتوبر حي اوركييديا، خلف مطعم واحه خطاب، فيلا ٢٠",
+                banquet_maps_url: "https://www.google.com/maps/search/?api=1&query=%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%AD%D9%8A+%D8%A7%D9%88%D8%B1%D9%83%D9%8A%D9%8A%D8%AF%D9%8A%D8%A7+%D8%AE%D9%84%D9%81+%D9%85%D8%B7%D8%B9%D9%85+%D9%88%D8%A7%D8%AD%D9%87+%D8%AE%D8%B7%D8%A7%D8%A8+%D9%81%D9%8A%D9%84%D8%A7+%D9%A2%D9%A0"
             };
         return p.jsxs(p.Fragment, {
             children: [p.jsx("button", {
@@ -33900,7 +33900,7 @@ Charente, France
                     location: c.banquet_location,
                     address: c.banquet_address,
                     mapsUrl: c.banquet_maps_url,
-                    startTime: "19:00",
+                    startTime: "20:00",
                     endTime: "02:00"
                 }), p.jsx(uL, {
                     targetDate: c.wedding_date

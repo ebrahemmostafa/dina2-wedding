@@ -33743,7 +33743,8 @@ const OB = 1,
                     src: BB.url,
                     className: "absolute inset-0 h-full w-full object-cover",
                     style: {
-                        opacity: r === "idle" || r === "loading" ? 0 : 1
+                        opacity: r === "idle" || r === "loading" ? 0 : 1,
+                        filter: "grayscale(100%) brightness(1.15) contrast(1.03)"
                     },
                     onPlaying: a,
                     onEnded: c,
@@ -33759,6 +33760,9 @@ const OB = 1,
                     src: XB.url,
                     alt: n("intro.envelopeAlt"),
                     className: "h-full w-full object-cover",
+                    style: {
+                        filter: "grayscale(100%) brightness(1.15) contrast(1.03)"
+                    },
                     loading: "eager",
                     fetchPriority: "high"
                 }), r === "idle" && p.jsx(z.p, {
