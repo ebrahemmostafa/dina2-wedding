@@ -15805,7 +15805,7 @@ function Go(e) {
 
 function fI(e) {
     let {
-        basename: t = "/dina2-wedding/",
+        basename: t = "/",
         children: n = null,
         location: r,
         navigationType: s = Or.Pop,
