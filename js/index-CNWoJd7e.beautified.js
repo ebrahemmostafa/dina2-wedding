@@ -22394,7 +22394,7 @@ function _8({
                             duration: 1,
                             delay: .7
                         },
-                        className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-4",
+                        className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-1",
                         children: "حفل زفاف"
                     }), p.jsx(z.img, {
                         src: "assets/l5e-images/letterss.png?v=6",
@@ -22413,7 +22413,38 @@ function _8({
                             duration: 1.1,
                             delay: .9
                         },
-                        className: "w-48 sm:w-60 md:w-72 max-h-[42vh] h-auto object-contain my-3 drop-shadow-[0_4px_20px_rgba(255,255,255,0.4)]"
+                        className: "w-48 sm:w-60 md:w-72 max-h-[42vh] h-auto object-contain -mt-4 mb-1 drop-shadow-[0_4px_20px_rgba(255,255,255,0.4)]"
+                    }), p.jsxs(z.div, {
+                        initial: {
+                            opacity: 0,
+                            scale: 0.95,
+                            y: 15
+                        },
+                        animate: {
+                            opacity: i ? 0 : 1,
+                            scale: i ? 0.95 : 1,
+                            y: i ? 15 : 0
+                        },
+                        transition: {
+                            duration: 1.1,
+                            delay: 1.0
+                        },
+                        className: "w-full max-w-[240px] sm:max-w-[290px] md:max-w-[330px] mx-auto -mt-1 mb-2 text-center",
+                        children: [
+                            p.jsxs("div", {
+                                className: "flex justify-between items-center font-display font-bold text-3xl sm:text-4xl md:text-5xl text-[hsl(var(--gold))] drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wide",
+                                children: [
+                                    p.jsx("span", {
+                                        children: "أحمد"
+                                    }), p.jsx("span", {
+                                        children: "دينا"
+                                    })
+                                ]
+                            }), p.jsx("div", {
+                                className: "font-display font-bold text-2xl sm:text-3xl md:text-4xl text-[hsl(var(--gold))] mt-1 drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wider",
+                                children: "آل عامري"
+                            })
+                        ]
                     }), p.jsx(z.div, {
                         initial: {
                             opacity: 0,
