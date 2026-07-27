@@ -33955,10 +33955,12 @@ function SpecialNotesSection() {
                                 className: "flex items-center justify-start gap-3 text-right",
                                 children: [
                                     p.jsx("span", {
-                                        className: "inline-block w-2.5 h-2.5 rounded-full bg-[#d86a1d] shrink-0"
+                                        className: "inline-block w-2.5 h-2.5 rounded-full shrink-0",
+                                        style: { backgroundColor: "#d86a1d" }
                                     }),
                                     p.jsx("p", {
-                                        className: "font-body text-lg sm:text-xl text-[#d86a1d] font-bold leading-relaxed",
+                                        className: "font-body text-lg sm:text-xl font-bold leading-relaxed",
+                                        style: { color: "#d86a1d" },
                                         children: "نلفت انتباهكم إلى أنه ممنوع اصطحاب الاطفال"
                                     })
                                 ]
