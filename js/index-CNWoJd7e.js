@@ -21864,7 +21864,7 @@ const l8 = {
         "lang.spanish": "العربية",
         "ui.muted": "تشغيل الصوت",
         "ui.unmuted": "كتم الصوت",
-        "hero.subtitle": "نحن نتزوج",
+        "hero.subtitle": "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
         "hero.location": "قاعة الزفاف | 7:00 مساءً",
         "intro.tap": "اضغط للفتح",
         "intro.loading": "جاري التحميل...",
@@ -22022,7 +22022,7 @@ const l8 = {
         "lang.spanish": "العربية",
         "ui.muted": "تشغيل الصوت",
         "ui.unmuted": "كتم الصوت",
-        "hero.subtitle": "نحن نتزوج",
+        "hero.subtitle": "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
         "hero.location": "قاعة الزفاف | 7:00 مساءً",
         "intro.tap": "اضغط للفتح",
         "intro.loading": "جاري التحميل...",
@@ -22385,9 +22385,24 @@ function _8({
                         },
                         transition: {
                             duration: 1,
+                            delay: .5
+                        },
+                        className: "font-display italic text-base md:text-xl text-[hsl(var(--gold))] mb-3 font-normal tracking-normal text-center leading-relaxed",
+                        children: "قصةٌ كُتبت بالمودة… واكتملت بالوعد."
+                    }), p.jsx(z.p, {
+                        initial: {
+                            opacity: 0,
+                            y: 10
+                        },
+                        animate: {
+                            opacity: i ? 0 : 1,
+                            y: i ? 10 : 0
+                        },
+                        transition: {
+                            duration: 1,
                             delay: .7
                         },
-                        className: "font-serif text-[0.7rem] md:text-xs tracking-[0.42em] uppercase text-[hsl(var(--gold))] mb-5",
+                        className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-4",
                         children: "حفل زفاف"
                     }), p.jsxs(z.h1, {
                         initial: {
@@ -33858,7 +33873,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                 couple_name_1: "لوتشيا",
                 couple_name_2: "ماتيو",
                 wedding_date: "2027-07-27",
-                hero_subtitle: null,
+                hero_subtitle: "قصةٌ كُتبت بالمودة… واكتملت بالوعد.",
                 banquet_location: "قاعة الزفاف\n",
                 banquet_address: `16380 Marthon,
 Charente, France
