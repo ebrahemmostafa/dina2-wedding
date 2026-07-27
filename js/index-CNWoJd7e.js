@@ -22475,160 +22475,27 @@ function B8({
     const {
         t: o
     } = ht(), a = o("welcome.kicker"), l = o("welcome.title2"), c = o("welcome.p2"), u = t || "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠", d = r || "https://maps.app.goo.gl/husp36rA4a3gxt887";
-    return p.jsxs("section", {
-        className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12",
-        children: [p.jsx("div", {
-            className: "relative z-10 max-w-2xl mx-auto text-center px-4 pt-10 md:pt-16",
-            children: p.jsx(z.img, {
-                src: U8.url,
-                alt: "Château illustration",
-                initial: {
-                    opacity: 0,
-                    y: -16
-                },
-                whileInView: {
-                    opacity: 1,
-                    y: 0
-                },
-                viewport: {
-                    once: !0
-                },
-                transition: {
-                    duration: 1
-                },
-                className: "w-56 md:w-72 mx-auto mb-4 drop-shadow-[0_2px_18px_rgba(214,198,166,0.55)]"
-            })
-        }), p.jsxs("div", {
-            className: "relative max-w-2xl mx-auto px-4 md:px-6",
-            children: [p.jsx("div", {
-                className: "absolute inset-0",
-                style: {
-                    backgroundImage: `url(${yg.url})`,
-                    backgroundSize: "100% 100%",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat"
-                }
-            }), p.jsx("div", {
-                className: "absolute inset-x-0 top-0 h-36 md:h-44 pointer-events-none z-[1]",
-                style: {
-                    background: "linear-gradient(to bottom, hsl(var(--ivory) / 0.95) 0%, hsl(var(--ivory) / 0.5) 40%, transparent 100%)",
-                    WebkitBackdropFilter: "blur(28px)",
-                    backdropFilter: "blur(28px)"
-                }
-            }), p.jsx("div", {
-                className: "absolute inset-x-0 bottom-0 h-36 md:h-44 pointer-events-none z-[1]",
-                style: {
-                    background: "linear-gradient(to top, hsl(var(--ivory) / 0.95) 0%, hsl(var(--ivory) / 0.5) 40%, transparent 100%)",
-                    WebkitBackdropFilter: "blur(28px)",
-                    backdropFilter: "blur(28px)"
-                }
-            }), p.jsxs("div", {
-                className: "relative z-10 text-center py-14 md:py-20 px-6 md:px-14",
-                children: [p.jsx("div", {
-                    className: "gold-rule w-16 mx-auto mb-8"
-                }), a && p.jsx(z.p, {
-                    initial: {
-                        opacity: 0,
-                        y: 20
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    viewport: {
-                        once: !0
-                    },
-                    transition: {
-                        duration: .8
-                    },
-                    className: "font-body italic tracking-[0.4em] uppercase text-xs text-[hsl(var(--antique-gold))] mb-5",
-                    children: a
-                }), p.jsxs(z.h2, {
-                    initial: {
-                        opacity: 0,
-                        y: 20
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    viewport: {
-                        once: !0
-                    },
-                    transition: {
-                        duration: .9,
-                        delay: .1
-                    },
-                    className: "font-quran text-3xl md:text-5xl text-[hsl(var(--plum))] leading-relaxed mb-4 whitespace-pre-wrap",
-                    children: [o("welcome.title1"), l && p.jsx("span", {
-                        className: "block font-serif italic text-[hsl(var(--antique-gold))]",
-                        children: l
-                    })]
-                }), p.jsx("div", {
-                    className: "gold-rule w-24 mx-auto my-7"
-                }), p.jsxs(z.div, {
-                    initial: {
-                        opacity: 0,
-                        y: 20
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    viewport: {
-                        once: !0
-                    },
-                    transition: {
-                        duration: .9,
-                        delay: .25
-                    },
-                    className: "space-y-5 font-body text-lg md:text-xl text-[hsl(var(--plum))]/90 leading-relaxed whitespace-pre-wrap",
-                    children: [p.jsx("p", {
-                        children: o("welcome.p1")
-                    }), c && p.jsx("p", {
-                        children: c
-                    })]
-                }), p.jsxs(z.div, {
-                    initial: {
-                        opacity: 0,
-                        y: 20
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    viewport: {
-                        once: !0
-                    },
-                    transition: {
-                        duration: .9,
-                        delay: .4
-                    },
-                    className: "mt-12",
-                    children: [p.jsx("h3", {
-                        className: "font-display text-2xl md:text-3xl text-[hsl(var(--plum))] mb-5",
-                        children: o("details.title")
-                    }), p.jsx("p", {
-                        className: "font-body text-base md:text-lg text-[hsl(var(--plum))]/90 mb-2 whitespace-pre-wrap",
-                        children: u
-                    }), p.jsx("p", {
-                        className: "font-serif italic text-[hsl(var(--antique-gold))] text-lg md:text-xl mb-8",
-                        children: o("welcome.time")
-                    }), p.jsx("div", {
-                        className: "flex justify-center items-center",
-                        children: p.jsxs("a", {
-                            href: d,
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "royal-btn-subtle",
-                            children: [p.jsx(z1, {
-                                className: "w-3.5 h-3.5"
-                            }), o("details.openMaps")]
-                        })
-                    })]
-                })]
-            })]
-        })]
+    return p.jsx("section", {
+        className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12 flex justify-center items-center",
+        children: p.jsx(z.img, {
+            src: "assets/l5e-images/background_orange.svg?v=1",
+            alt: "تفاصيل الدعوة",
+            initial: {
+                opacity: 0,
+                y: 20
+            },
+            whileInView: {
+                opacity: 1,
+                y: 0
+            },
+            viewport: {
+                once: !0
+            },
+            transition: {
+                duration: 1
+            },
+            className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[85vh] h-auto object-contain mx-auto px-4 drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
+        })
     })
 }
 const z8 = "4bc58cfa-4988-4f35-9b58-1b885a62888e",
