@@ -22384,50 +22384,6 @@ function _8({
                             delay: 0.5
                         },
                         className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[70vh] h-auto object-contain mx-auto my-2 drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
-                    }), p.jsx(z.div, {
-                        initial: {
-                            opacity: 0,
-                            scaleX: 0
-                        },
-                        animate: {
-                            opacity: i ? 0 : 1,
-                            scaleX: i ? 0 : 1
-                        },
-                        transition: {
-                            duration: 1,
-                            delay: 1.15
-                        },
-                        className: "gold-rule w-16 my-6 origin-center"
-                    }), p.jsx(z.p, {
-                        initial: {
-                            opacity: 0,
-                            y: 10
-                        },
-                        animate: {
-                            opacity: i ? 0 : 1,
-                            y: i ? 10 : 0
-                        },
-                        transition: {
-                            duration: 1,
-                            delay: 1.25
-                        },
-                        className: "font-serif text-sm md:text-base tracking-[0.35em] uppercase text-[hsl(var(--dusty-rose))]",
-                        children: x8(n, o)
-                    }), s && p.jsx(z.p, {
-                        initial: {
-                            opacity: 0,
-                            y: 10
-                        },
-                        animate: {
-                            opacity: i ? 0 : 1,
-                            y: i ? 10 : 0
-                        },
-                        transition: {
-                            duration: 1,
-                            delay: 1.4
-                        },
-                        className: "font-display italic text-base md:text-lg text-[hsl(var(--plum))]/75 mt-4 max-w-md leading-snug whitespace-pre-line",
-                        children: s
                     }), p.jsx(z.svg, {
                         "aria-hidden": !0,
                         initial: {
