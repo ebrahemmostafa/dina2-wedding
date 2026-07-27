@@ -22396,33 +22396,24 @@ function _8({
                         },
                         className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-4",
                         children: "حفل زفاف"
-                    }), p.jsxs(z.h1, {
+                    }), p.jsx(z.img, {
+                        src: "assets/l5e-images/letters.png?v=1",
+                        alt: "العروسين",
                         initial: {
                             opacity: 0,
+                            scale: 0.95,
                             y: 20
                         },
                         animate: {
                             opacity: i ? 0 : 1,
+                            scale: i ? 0.95 : 1,
                             y: i ? 20 : 0
                         },
                         transition: {
                             duration: 1.1,
                             delay: .9
                         },
-                        className: "font-display italic font-light text-[clamp(3.2rem,10vw,6.5rem)] leading-[0.95] text-[hsl(var(--dusty-blue))] drop-shadow-[0_2px_18px_rgba(255,255,255,0.55)]",
-                        children: [p.jsx("span", {
-                            className: "block",
-                            children: e
-                        }), p.jsx("span", {
-                            className: "block not-italic font-serif text-[0.42em] my-1 text-[hsl(var(--plum))]",
-                            style: {
-                                fontFamily: "'Cormorant Garamond', serif"
-                            },
-                            children: "&"
-                        }), p.jsx("span", {
-                            className: "block",
-                            children: t
-                        })]
+                        className: "w-48 sm:w-60 md:w-72 max-h-[42vh] h-auto object-contain my-3 drop-shadow-[0_4px_20px_rgba(255,255,255,0.4)]"
                     }), p.jsx(z.div, {
                         initial: {
                             opacity: 0,
