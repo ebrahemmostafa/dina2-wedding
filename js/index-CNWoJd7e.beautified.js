@@ -33659,7 +33659,7 @@ function NB() {
 const OB = 1,
     IB = "bc44ecd3-1d47-4384-97ba-25ed65803916",
     $B = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
-    DB = "./assets/l5e-videos/intro-video.mp4?v=2",
+    DB = "./assets/l5e-videos/intro-video.mp4?v=3",
     MB = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/bc44ecd3-1d47-4384-97ba-25ed65803916/intro-video.mp4",
     LB = "intro-video.mp4",
     FB = 2251403,
