@@ -22664,7 +22664,7 @@ function B8({
                         duration: .9,
                         delay: .1
                     },
-                    className: "font-display text-3xl md:text-5xl text-[hsl(var(--plum))] leading-tight mb-2 whitespace-pre-wrap",
+                    className: "font-quran text-3xl md:text-5xl text-[hsl(var(--plum))] leading-relaxed mb-4 whitespace-pre-wrap",
                     children: [o("welcome.title1"), l && p.jsx("span", {
                         className: "block font-serif italic text-[hsl(var(--antique-gold))]",
                         children: l
