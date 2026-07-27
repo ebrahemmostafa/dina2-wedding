@@ -33987,11 +33987,11 @@ function SpecialNotesSection() {
                                 className: "flex items-center justify-start gap-3 text-right",
                                 children: [
                                     p.jsx("span", {
-                                        className: "inline-block w-2.5 h-2.5 rounded-full bg-[hsl(var(--gold))] shrink-0"
+                                        className: "inline-block w-2.5 h-2.5 rounded-full bg-[#d86a1d] shrink-0"
                                     }),
                                     p.jsx("p", {
-                                        className: "font-body text-lg sm:text-xl text-[hsl(var(--plum))]/90 font-medium leading-relaxed",
-                                        children: "يرجى الحضور قبل 20 دقيقة من موعد الحفل"
+                                        className: "font-body text-lg sm:text-xl text-[#d86a1d] font-bold leading-relaxed",
+                                        children: "ممنوع اصطحاب الأطفال"
                                     })
                                 ]
                             })
