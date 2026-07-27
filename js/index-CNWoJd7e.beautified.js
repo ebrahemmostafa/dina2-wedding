@@ -22366,39 +22366,9 @@ function _8({
                     })
                 }), p.jsxs("div", {
                     className: "relative z-10 px-8 md:px-12 pt-10 md:pt-14 flex flex-col items-center",
-                    children: [p.jsx(z.p, {
-                        initial: {
-                            opacity: 0,
-                            y: 10
-                        },
-                        animate: {
-                            opacity: i ? 0 : 1,
-                            y: i ? 10 : 0
-                        },
-                        transition: {
-                            duration: 1,
-                            delay: .5
-                        },
-                        className: "font-display italic text-base md:text-xl text-[hsl(var(--gold))] mb-3 font-normal tracking-normal text-center leading-relaxed",
-                        children: "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ"
-                    }), p.jsx(z.p, {
-                        initial: {
-                            opacity: 0,
-                            y: 10
-                        },
-                        animate: {
-                            opacity: i ? 0 : 1,
-                            y: i ? 10 : 0
-                        },
-                        transition: {
-                            duration: 1,
-                            delay: .7
-                        },
-                        className: "font-serif text-sm md:text-base tracking-normal uppercase text-[hsl(var(--gold))] mb-2 whitespace-pre-line text-center leading-relaxed",
-                        children: "في ليلة يتكللها الفرح والسرور\nنتشرف بدعوتكم حضور حفل زفاف"
-                    }), p.jsx(z.img, {
-                        src: "assets/l5e-images/letterss.png?v=6",
-                        alt: "العروسين",
+                    children: [p.jsx(z.img, {
+                        src: "assets/l5e-images/announcement.svg?v=1",
+                        alt: "إعلان الزفاف",
                         initial: {
                             opacity: 0,
                             scale: 0.95,
@@ -22411,40 +22381,9 @@ function _8({
                         },
                         transition: {
                             duration: 1.1,
-                            delay: .9
+                            delay: 0.5
                         },
-                        className: "w-48 sm:w-60 md:w-72 max-h-[42vh] h-auto object-contain -mt-4 mb-1 drop-shadow-[0_4px_20px_rgba(255,255,255,0.4)]"
-                    }), p.jsxs(z.div, {
-                        initial: {
-                            opacity: 0,
-                            scale: 0.95,
-                            y: 15
-                        },
-                        animate: {
-                            opacity: i ? 0 : 1,
-                            scale: i ? 0.95 : 1,
-                            y: i ? 15 : 0
-                        },
-                        transition: {
-                            duration: 1.1,
-                            delay: 1.0
-                        },
-                        className: "w-full max-w-[300px] sm:max-w-[450px] md:max-w-[600px] mx-auto -mt-2 mb-2 text-center",
-                        children: [
-                            p.jsxs("div", {
-                                className: "flex justify-between items-center font-decorative font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[hsl(var(--gold))] drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wide",
-                                children: [
-                                    p.jsx("span", {
-                                        children: "أحمد"
-                                    }), p.jsx("span", {
-                                        children: "وينا"
-                                    })
-                                ]
-                            }), p.jsx("div", {
-                                className: "font-decorative font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[hsl(var(--gold))] mt-3 drop-shadow-[0_2px_15px_rgba(255,255,255,0.8)] tracking-wider",
-                                children: "آل العامري"
-                            })
-                        ]
+                        className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[70vh] h-auto object-contain mx-auto my-2 drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
                     }), p.jsx(z.div, {
                         initial: {
                             opacity: 0,
