@@ -33951,10 +33951,6 @@ function SpecialNotesSection() {
                     p.jsxs("div", {
                         className: "w-full bg-[hsl(var(--peach))]/45 backdrop-blur-md rounded-3xl p-6 sm:p-8 md:p-10 border border-[hsl(var(--gold))]/25 shadow-md text-right",
                         children: [
-                            p.jsx("h3", {
-                                className: "font-display font-bold text-xl sm:text-2xl text-[hsl(var(--gold))] mb-4",
-                                children: "نلفت انتباهكم إلى أن"
-                            }),
                             p.jsxs("div", {
                                 className: "flex items-center justify-start gap-3 text-right",
                                 children: [
@@ -33963,7 +33959,7 @@ function SpecialNotesSection() {
                                     }),
                                     p.jsx("p", {
                                         className: "font-body text-lg sm:text-xl text-[#d86a1d] font-bold leading-relaxed",
-                                        children: "ممنوع اصطحاب الأطفال"
+                                        children: "نلفت انتباهكم إلى أنه ممنوع اصطحاب الاطفال"
                                     })
                                 ]
                             })
