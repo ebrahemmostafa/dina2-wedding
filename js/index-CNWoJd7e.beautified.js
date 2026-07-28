@@ -22746,12 +22746,15 @@ function uL({
                         duration: .5,
                         delay: .3 + f * .1
                     },
-                    className: "relative flex flex-col items-center justify-center w-full aspect-square py-4 bg-white/40 backdrop-blur-sm border-[1.5px] border-dashed border-[#e39158] rounded-xl shadow-sm",
+                    className: "relative flex flex-col items-center justify-center py-4",
+                    style: { width: "100%", aspectRatio: "1/1", backgroundColor: "rgba(255,255,255,0.45)", border: "1.5px dashed #e39158", borderRadius: "12px", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" },
                     children: [p.jsx("span", {
-                        className: "block font-display text-4xl sm:text-5xl md:text-6xl text-[#e39158] leading-none",
+                        className: "block font-display leading-none",
+                        style: { color: "#e39158", fontSize: "clamp(2rem, 8vw, 3.5rem)" },
                         children: d(h.v)
                     }), p.jsx("span", {
-                        className: "block mt-1 md:mt-2 text-[10px] sm:text-[11px] tracking-[0.1em] sm:tracking-[0.15em] uppercase text-[hsl(var(--plum))]/90 font-body",
+                        className: "block font-body",
+                        style: { marginTop: "6px", fontSize: "10px", letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(0,0,0,0.55)" },
                         children: h.l
                     })]
                 }, h.l))
