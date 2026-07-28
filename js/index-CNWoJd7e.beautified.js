@@ -33653,7 +33653,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                     mapsUrl: c.banquet_maps_url,
                     startTime: "20:00",
                     endTime: "02:00"
-                }), p.jsx(DF, {}), p.jsx(SpecialNotesSection, {}), p.jsx(IV, {
+                }), p.jsx(DF, {}), p.jsx(IV, {
                     name1: c.couple_name_1,
                     name2: c.couple_name_2,
                     date: c.wedding_date
