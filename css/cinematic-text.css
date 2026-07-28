@@ -1,0 +1,100 @@
+/* ============================================
+   Cinematic Text Reveal Animation System
+   Line-by-line sequential text appearance
+   ============================================ */
+
+/* Base state: all animatable text elements start hidden */
+.cinematic-line {
+    opacity: 0;
+    transform: translateY(28px);
+    filter: blur(6px);
+    transition: opacity 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                filter 1.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: opacity, transform, filter;
+}
+
+/* Revealed state */
+.cinematic-line.revealed {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+}
+
+/* Special style for headings - more dramatic entrance */
+h1.cinematic-line,
+h2.cinematic-line,
+h3.cinematic-line {
+    transform: translateY(40px) scale(0.96);
+    filter: blur(8px);
+    transition: opacity 1.8s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 1.8s cubic-bezier(0.16, 1, 0.3, 1),
+                filter 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+h1.cinematic-line.revealed,
+h2.cinematic-line.revealed,
+h3.cinematic-line.revealed {
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+}
+
+/* Buttons & interactive elements - subtle slide up */
+button.cinematic-line,
+a.cinematic-line,
+.cinematic-line[role="button"] {
+    transform: translateY(20px);
+    filter: blur(3px);
+    transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                filter 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+button.cinematic-line.revealed,
+a.cinematic-line.revealed,
+.cinematic-line[role="button"].revealed {
+    transform: translateY(0);
+    filter: blur(0);
+}
+
+/* Image containers - fade and scale */
+img.cinematic-line,
+video.cinematic-line,
+svg.cinematic-line,
+.cinematic-line > img,
+.cinematic-line > video {
+    transform: translateY(30px) scale(0.95);
+    transition: opacity 1.8s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 1.8s cubic-bezier(0.16, 1, 0.3, 1),
+                filter 1.5s ease-out;
+}
+
+img.cinematic-line.revealed,
+video.cinematic-line.revealed,
+svg.cinematic-line.revealed,
+.cinematic-line.revealed > img,
+.cinematic-line.revealed > video {
+    transform: translateY(0) scale(1);
+}
+
+/* Ensure fixed/sticky elements and controls are never hidden */
+[class*="fixed"],
+[class*="sticky"],
+[class*="z-50"],
+nav {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+}
+
+/* Smooth scrolling hint glow for sections */
+@keyframes cinematic-glow {
+    0% { text-shadow: none; }
+    50% { text-shadow: 0 0 20px rgba(216, 106, 29, 0.15); }
+    100% { text-shadow: none; }
+}
+
+h1.cinematic-line.revealed,
+h2.cinematic-line.revealed {
+    animation: cinematic-glow 2s ease-in-out 0.5s 1;
+}
