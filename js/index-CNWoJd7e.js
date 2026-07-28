@@ -22642,7 +22642,7 @@ function uL({
     return p.jsxs("section", {
         ref: i,
         id: "countdown",
-        className: "relative py-20 md:py-28 overflow-hidden -mt-px bg-ivory",
+        className: "relative pt-6 pb-20 md:pt-8 md:pb-28 overflow-hidden -mt-px bg-ivory",
         children: [p.jsx("div", {
             className: "absolute inset-0 pointer-events-none",
             style: {
@@ -33621,7 +33621,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
             },
             c = {
                 couple_name_1: "أحمد",
-                couple_name_2: "وينا",
+                couple_name_2: "دينا",
                 wedding_date: "2026-08-07",
                 hero_subtitle: "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
                 banquet_location: "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠",

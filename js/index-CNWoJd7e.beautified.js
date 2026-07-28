@@ -22657,7 +22657,7 @@ function uL({
     return p.jsxs("section", {
         ref: i,
         id: "countdown",
-        className: "relative py-4 md:py-6 overflow-hidden bg-transparent",
+        className: "relative pt-0 pb-4 md:pt-0 md:pb-6 overflow-hidden bg-transparent",
         children: [p.jsx("div", {
             className: "absolute inset-0 pointer-events-none",
             style: {
