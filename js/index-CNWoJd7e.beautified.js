@@ -22501,7 +22501,8 @@ function B8({
             children: [p.jsx("img", {
                 src: "assets/l5e-images/letters_big.svg",
                 alt: "Letters",
-                className: "w-48 sm:w-56 md:w-64 mb-4 object-contain drop-shadow-md z-20"
+                className: "w-48 sm:w-56 md:w-64 mb-4 object-contain drop-shadow-md z-20",
+                style: { marginTop: "3rem" }
             }), p.jsx("div", {
                 className: "",
                 style: { marginTop: "-4rem" },
