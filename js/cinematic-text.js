@@ -12,7 +12,7 @@
     // Configuration
     const CONFIG = {
         // Base delay between sequential elements within the same section (ms)
-        staggerDelay: 350,
+        staggerDelay: 650,
         // How far into the viewport the element must be to trigger (0-1)
         viewportThreshold: 0.12,
         // Root margin for early detection

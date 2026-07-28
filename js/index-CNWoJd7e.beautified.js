@@ -33555,11 +33555,10 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
             t
         } = ht(), [n, r] = g.useState(!0), [s, i] = g.useState(!1), o = g.useRef(null);
         g.useEffect(() => {
-            const u = document.createElement("video");
-            u.src = "./assets/l5e-audio/background-sound.mp4";
+            const u = document.createElement("audio");
+            u.src = "./assets/final_audio.mp3";
             u.loop = !0;
             u.volume = .6;
-            u.playsInline = !0;
             u.style.display = "none";
             document.body.appendChild(u);
             return o.current = u, () => {
@@ -33567,21 +33566,9 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
             }
         }, []);
         const a = () => {
-                const introV = document.createElement("video");
-                introV.src = "./assets/l5e-audio/intro-sound.mp4";
-                introV.volume = 0.8;
-                introV.playsInline = !0;
-                introV.style.display = "none";
-                document.body.appendChild(introV);
-                introV.play().catch(function(err) { console.error("intro play error:", err) });
-                setTimeout(() => {
-                    introV.pause();
-                    introV.src = "";
-                    introV.remove();
-                    const u = o.current;
-                    u && (u.muted = s, u.play().catch(function(err) { console.error("bg play error:", err) }))
-                }, 5000)
-            },
+            const u = o.current;
+            u && (u.muted = s, u.play().catch(function(err) { console.error("bg play error:", err) }))
+        },
             l = () => {
                 i(u => {
                     const d = !u;
