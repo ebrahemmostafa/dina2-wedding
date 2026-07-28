@@ -33550,7 +33550,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
     oz = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
     az = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/4eb245b4-1929-45cc-b854-c19be74b61fc/ballerina.mp3",
     lz = 2872335,
-    cz = "./assets/l5e-audio/ballerina.mp3",
+    cz = "./assets/l5e-audio/wedding_music.mp3",
     uz = 1,
     dz = {
         asset_id: nz,
