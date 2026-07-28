@@ -32866,7 +32866,7 @@ function IV({
     return p.jsx("footer", {
         className: "relative bg-[hsl(var(--ivory))] flex flex-col justify-center items-center py-8 md:py-12 overflow-hidden",
         children: p.jsx(z.img, {
-            src: "assets/l5e-images/last_last.svg",
+            src: "assets/l5e-images/TEST_LAST.svg",
             alt: "Footer Background",
             initial: { opacity: 0, y: 20 },
             whileInView: { opacity: 1, y: 0 },
