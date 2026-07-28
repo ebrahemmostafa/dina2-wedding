@@ -22478,7 +22478,7 @@ function B8({
     return p.jsxs("section", {
         className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12 flex flex-col justify-center items-center",
         children: [p.jsx(z.img, {
-            src: "assets/l5e-images/background_orange.svg?v=1",
+            src: "assets/l5e-images/last_th.svg",
             alt: "تفاصيل الدعوة",
             initial: {
                 opacity: 0,
