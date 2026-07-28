@@ -22746,9 +22746,9 @@ function uL({
                         duration: .5,
                         delay: .3 + f * .1
                     },
-                    className: "relative flex flex-col items-center justify-center w-full aspect-square py-4 bg-transparent border-[1.5px] border-dashed border-[#e39158] rounded-xl",
+                    className: "relative flex flex-col items-center justify-center w-full aspect-square py-4 bg-white/40 backdrop-blur-sm border-[1.5px] border-dashed border-[#e39158] rounded-xl shadow-sm",
                     children: [p.jsx("span", {
-                        className: "block font-display text-4xl sm:text-5xl md:text-6xl text-[hsl(var(--plum))] leading-none",
+                        className: "block font-display text-4xl sm:text-5xl md:text-6xl text-[#e39158] leading-none",
                         children: d(h.v)
                     }), p.jsx("span", {
                         className: "block mt-1 md:mt-2 text-[10px] sm:text-[11px] tracking-[0.1em] sm:tracking-[0.15em] uppercase text-[hsl(var(--plum))]/90 font-body",
