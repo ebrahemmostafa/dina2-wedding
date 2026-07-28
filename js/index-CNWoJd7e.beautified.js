@@ -22475,9 +22475,9 @@ function B8({
     const {
         t: o
     } = ht(), a = o("welcome.kicker"), l = o("welcome.title2"), c = o("welcome.p2"), u = t || "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠", d = r || "https://maps.app.goo.gl/husp36rA4a3gxt887";
-    return p.jsx("section", {
-        className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12 flex justify-center items-center",
-        children: p.jsx(z.img, {
+    return p.jsxs("section", {
+        className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12 flex flex-col justify-center items-center",
+        children: [p.jsx(z.img, {
             src: "assets/l5e-images/background_orange.svg?v=1",
             alt: "تفاصيل الدعوة",
             initial: {
@@ -22495,7 +22495,12 @@ function B8({
                 duration: 1
             },
             className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[85vh] h-auto object-contain mx-auto px-4 drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
-        })
+        }), p.jsx("div", {
+            className: "absolute inset-0 flex flex-col justify-center items-center z-10 px-6 sm:px-8 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto",
+            children: p.jsx(uL, {
+                targetDate: e
+            })
+        })]
     })
 }
 const z8 = "4bc58cfa-4988-4f35-9b58-1b885a62888e",
@@ -22642,7 +22647,7 @@ function uL({
     return p.jsxs("section", {
         ref: i,
         id: "countdown",
-        className: "relative py-20 md:py-28 overflow-hidden -mt-px bg-ivory",
+        className: "relative py-4 md:py-6 overflow-hidden bg-transparent",
         children: [p.jsx("div", {
             className: "absolute inset-0 pointer-events-none",
             style: {
@@ -22659,31 +22664,7 @@ function uL({
                 boxShadow: "0 0 8px hsl(var(--candlelight))",
                 animationDelay: `${h.delay}s`
             }
-        }, f)), p.jsx(z.img, {
-            src: X8.url,
-            alt: "",
-            loading: "eager",
-            initial: {
-                x: "50%"
-            },
-            animate: a,
-            style: {
-                transformOrigin: "top left"
-            },
-            className: "absolute top-0 left-0 h-full w-auto max-w-[30%] md:max-w-[40%] select-none pointer-events-none opacity-95 z-[20] will-change-transform"
-        }), p.jsx(z.img, {
-            src: lL.url,
-            alt: "",
-            loading: "eager",
-            initial: {
-                x: "-50%"
-            },
-            animate: l,
-            style: {
-                transformOrigin: "top right"
-            },
-            className: "absolute top-0 right-0 h-full w-auto max-w-[30%] md:max-w-[40%] select-none pointer-events-none opacity-95 z-[20] will-change-transform"
-        }), p.jsxs("div", {
+        }, f)), p.jsxs("div", {
             className: "relative z-10 max-w-4xl mx-auto text-center px-4",
             children: [p.jsx(z.h2, {
                 initial: {
@@ -33668,9 +33649,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                     mapsUrl: c.banquet_maps_url,
                     startTime: "20:00",
                     endTime: "02:00"
-                }), p.jsx(uL, {
-                    targetDate: c.wedding_date
-                }), p.jsx(DF, {}), p.jsx(_V, {}), p.jsx(SpecialNotesSection, {}), p.jsx(IV, {
+                }), p.jsx(DF, {}), p.jsx(SpecialNotesSection, {}), p.jsx(IV, {
                     name1: c.couple_name_1,
                     name2: c.couple_name_2,
                     date: c.wedding_date
