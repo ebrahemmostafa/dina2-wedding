@@ -98,3 +98,94 @@ h1.cinematic-line.revealed,
 h2.cinematic-line.revealed {
     animation: cinematic-glow 2s ease-in-out 0.5s 1;
 }
+
+/* First-screen scroll cue */
+.first-page-scroll-cue {
+    position: fixed !important;
+    right: 50%;
+    bottom: max(1.1rem, env(safe-area-inset-bottom));
+    z-index: 2147483000 !important;
+    display: inline-flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.22rem;
+    min-width: 6.6rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #2b2017;
+    text-align: center;
+    text-shadow: 0 1px 10px rgba(255, 255, 255, 0.96);
+    transform: translateX(50%);
+    opacity: 1 !important;
+    filter: none !important;
+    cursor: pointer;
+    transition: opacity 0.28s ease, visibility 0.28s ease;
+    animation: first-page-scroll-cue-float 1.85s ease-in-out infinite;
+}
+
+.first-page-scroll-cue--hidden {
+    visibility: hidden;
+    opacity: 0 !important;
+}
+
+.first-page-scroll-cue__arrow {
+    width: clamp(1.55rem, 5.5vw, 2.15rem);
+    height: clamp(1.55rem, 5.5vw, 2.15rem);
+    border-right: 0.22rem solid currentColor;
+    border-bottom: 0.22rem solid currentColor;
+    transform: rotate(45deg);
+    filter: drop-shadow(0 3px 8px rgba(43, 32, 23, 0.28)) !important;
+    animation: first-page-scroll-arrow-bounce 0.95s ease-in-out infinite;
+}
+
+.first-page-scroll-cue__label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.28rem 0.78rem;
+    border: 1px solid rgba(92, 69, 37, 0.34);
+    border-radius: 999px;
+    background: rgba(255, 249, 241, 0.84);
+    box-shadow: 0 8px 24px rgba(43, 32, 23, 0.16);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    color: #2b2017;
+    font-family: 'Almarai', 'Almaria', 'Amiri', 'Cairo', sans-serif !important;
+    font-size: clamp(0.9rem, 2.6vw, 1.08rem);
+    font-weight: 800;
+    line-height: 1.35;
+    white-space: nowrap;
+}
+
+@keyframes first-page-scroll-cue-float {
+    0%, 100% {
+        transform: translateX(50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(50%) translateY(-0.42rem);
+    }
+}
+
+@keyframes first-page-scroll-arrow-bounce {
+    0%, 100% {
+        transform: rotate(45deg) translate(0, 0);
+    }
+
+    50% {
+        transform: rotate(45deg) translate(0.2rem, 0.2rem);
+    }
+}
+
+@media (max-height: 680px) {
+    .first-page-scroll-cue {
+        bottom: max(0.55rem, env(safe-area-inset-bottom));
+    }
+
+    .first-page-scroll-cue__label {
+        padding-block: 0.2rem;
+        font-size: 0.82rem;
+    }
+}

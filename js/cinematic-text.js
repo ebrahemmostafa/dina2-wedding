@@ -206,6 +206,48 @@
 
         // Watch for dynamically added content (React)
         watchForNewContent(sectionObserver);
+
+        ensureFirstPageScrollCue();
+    }
+
+    /**
+     * Add a persistent first-screen scroll hint outside React so it stays
+     * above the invitation art and is not affected by section animations.
+     */
+    function ensureFirstPageScrollCue() {
+        if (document.querySelector('.first-page-scroll-cue')) return;
+
+        const cue = document.createElement('button');
+        cue.type = 'button';
+        cue.className = 'first-page-scroll-cue cinematic-skip';
+        cue.setAttribute('aria-label', 'مرر لأسفل');
+        cue.innerHTML = '<span class="first-page-scroll-cue__arrow" aria-hidden="true"></span><span class="first-page-scroll-cue__label">مرر لأسفل</span>';
+
+        cue.addEventListener('click', () => {
+            window.scrollBy({
+                top: Math.max(window.innerHeight * 0.82, 420),
+                behavior: 'smooth'
+            });
+        });
+
+        const updateVisibility = () => {
+            const invitationReady = !!document.querySelector('#root main');
+            const firstScreenLimit = window.innerHeight * 0.62;
+            cue.classList.toggle('first-page-scroll-cue--hidden', !invitationReady || window.scrollY > firstScreenLimit);
+        };
+
+        window.addEventListener('scroll', updateVisibility, { passive: true });
+        window.addEventListener('resize', updateVisibility, { passive: true });
+        document.body.appendChild(cue);
+
+        const root = document.getElementById('root');
+        if (root) {
+            new MutationObserver(updateVisibility).observe(root, {
+                childList: true,
+                subtree: true
+            });
+        }
+        updateVisibility();
     }
 
     // Start when DOM is ready and React has rendered
