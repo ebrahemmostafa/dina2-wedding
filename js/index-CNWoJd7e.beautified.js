@@ -32858,63 +32858,42 @@ function IV({
         lang: s
     } = ht(), i = OV(n, s);
     return p.jsxs("footer", {
-        className: "relative z-10 bg-[hsl(var(--ivory))] text-center py-12 md:py-16 overflow-hidden",
-        children: [p.jsx("div", {
-            className: "absolute inset-0",
-            style: {
-                backgroundImage: `url("assets/l5e-images/last_org.svg")`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                opacity: .85
-            }
-        }), p.jsx("div", {
-            className: "absolute inset-x-0 top-0 h-12 pointer-events-none z-[1]",
-            style: {
-                background: "linear-gradient(to bottom, hsl(var(--ivory)) 0%, transparent 100%)",
-                WebkitBackdropFilter: "blur(3px)",
-                backdropFilter: "blur(3px)"
-            }
-        }), p.jsx("div", {
-            className: "absolute inset-x-0 bottom-0 h-12 pointer-events-none z-[1]",
-            style: {
-                background: "linear-gradient(to top, hsl(var(--ivory)) 0%, transparent 100%)",
-                WebkitBackdropFilter: "blur(3px)",
-                backdropFilter: "blur(3px)"
-            }
-        }), p.jsxs(z.div, {
-            initial: {
-                opacity: 0,
-                y: 20
-            },
-            whileInView: {
-                opacity: 1,
-                y: 0
-            },
-            viewport: {
-                once: !0
-            },
-            transition: {
-                duration: .8
-            },
-            className: "relative z-10 flex flex-col items-center",
-            children: [p.jsx("img", {
-                src: NV.url,
-                alt: "",
-                "aria-hidden": "true",
-                loading: "lazy",
-                className: "pointer-events-none select-none w-28 md:w-36 mb-4 opacity-95"
-            }), p.jsxs("p", {
-                className: "font-display italic text-2xl md:text-3xl text-[hsl(var(--plum))] mb-1",
-                children: [e, " & ", t]
-            }), p.jsx("p", {
-                className: "text-sm text-[hsl(var(--plum))]/90 font-body tracking-[0.3em] uppercase",
-                children: i
-            }), p.jsx("div", {
-                className: "gold-rule w-24 mx-auto mt-6"
-            })]
-        })]
-    })
+        className: "relative bg-[hsl(var(--ivory))] flex flex-col justify-center items-center py-8 md:py-12 overflow-hidden",
+        children: [
+            p.jsx(z.img, {
+                src: "assets/l5e-images/last_org.svg",
+                alt: "Footer Background",
+                initial: { opacity: 0, y: 20 },
+                whileInView: { opacity: 1, y: 0 },
+                viewport: { once: !0 },
+                transition: { duration: 1 },
+                className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[85vh] h-auto object-contain mx-auto px-4"
+            }),
+            p.jsxs("div", {
+                className: "absolute inset-0 flex flex-col justify-center items-center z-10 px-6 sm:px-8 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto",
+                children: [
+                    p.jsx("img", {
+                        src: NV.url,
+                        alt: "",
+                        "aria-hidden": "true",
+                        loading: "lazy",
+                        className: "pointer-events-none select-none w-20 md:w-28 mb-4 opacity-95"
+                    }), 
+                    p.jsxs("p", {
+                        className: "font-display italic text-2xl md:text-3xl text-[hsl(var(--plum))] mb-1",
+                        children: [e, " & ", t]
+                    }), 
+                    p.jsx("p", {
+                        className: "text-sm text-[hsl(var(--plum))]/90 font-body tracking-[0.3em] uppercase",
+                        children: i
+                    }), 
+                    p.jsx("div", {
+                        className: "gold-rule w-24 mx-auto mt-6"
+                    })
+                ]
+            })
+        ]
+    });
 }
 const $V = "b5fdc043-f751-4f85-9c38-56c809acef25",
     DV = "image/png",
