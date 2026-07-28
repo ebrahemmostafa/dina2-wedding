@@ -22495,11 +22495,15 @@ function B8({
                 duration: 1
             },
             className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[85vh] h-auto object-contain mx-auto px-4 drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
-        }), p.jsx("div", {
+        }), p.jsxs("div", {
             className: "absolute inset-0 flex flex-col justify-center items-center z-10 px-6 sm:px-8 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto",
-            children: p.jsx(uL, {
+            children: [p.jsx("img", {
+                src: "assets/l5e-images/letters_big.svg",
+                alt: "Letters",
+                className: "w-48 sm:w-56 md:w-64 mb-2 object-contain drop-shadow-md z-20"
+            }), p.jsx(uL, {
                 targetDate: e
-            })
+            })]
         })]
     })
 }
