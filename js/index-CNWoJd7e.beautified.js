@@ -22502,7 +22502,8 @@ function B8({
                 alt: "Letters",
                 className: "w-48 sm:w-56 md:w-64 mb-4 object-contain drop-shadow-md z-20"
             }), p.jsx("div", {
-                className: "-mt-12 md:-mt-16",
+                className: "",
+                style: { marginTop: "-4rem" },
                 children: p.jsx(uL, {
                     targetDate: e
                 })
