@@ -99,6 +99,86 @@ h2.cinematic-line.revealed {
     animation: cinematic-glow 2s ease-in-out 0.5s 1;
 }
 
+/* Envelope opening cue */
+.envelope-open-cue {
+    position: fixed !important;
+    right: 50%;
+    bottom: max(3.35rem, env(safe-area-inset-bottom));
+    z-index: 2147483001 !important;
+    display: inline-flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.28rem;
+    min-width: 8.5rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #fff7ec;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(55, 31, 12, 0.66), 0 0 18px rgba(255, 255, 255, 0.34);
+    transform: translateX(50%);
+    opacity: 1 !important;
+    filter: none !important;
+    cursor: pointer;
+    transition: opacity 0.28s ease, visibility 0.28s ease;
+    animation: envelope-open-cue-float 1.9s ease-in-out infinite;
+}
+
+.envelope-open-cue--hidden {
+    visibility: hidden;
+    opacity: 0 !important;
+}
+
+.envelope-open-cue__arrow {
+    width: clamp(1.8rem, 6vw, 2.45rem);
+    height: clamp(1.8rem, 6vw, 2.45rem);
+    border-right: 0.24rem solid currentColor;
+    border-bottom: 0.24rem solid currentColor;
+    transform: rotate(225deg);
+    filter: drop-shadow(0 4px 9px rgba(55, 31, 12, 0.52)) !important;
+    animation: envelope-open-arrow-point 0.95s ease-in-out infinite;
+}
+
+.envelope-open-cue__label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.32rem 0.88rem;
+    border: 1px solid rgba(255, 247, 236, 0.5);
+    border-radius: 999px;
+    background: rgba(74, 39, 15, 0.46);
+    box-shadow: 0 10px 28px rgba(55, 31, 12, 0.28);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    color: #fff7ec;
+    font-family: 'Almarai', 'Almaria', 'Amiri', 'Cairo', sans-serif !important;
+    font-size: clamp(0.9rem, 2.75vw, 1.1rem);
+    font-weight: 800;
+    line-height: 1.35;
+    white-space: nowrap;
+}
+
+@keyframes envelope-open-cue-float {
+    0%, 100% {
+        transform: translateX(50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(50%) translateY(-0.38rem);
+    }
+}
+
+@keyframes envelope-open-arrow-point {
+    0%, 100% {
+        transform: rotate(225deg) translate(0, 0);
+    }
+
+    50% {
+        transform: rotate(225deg) translate(0.2rem, 0.2rem);
+    }
+}
+
 /* First-screen scroll cue */
 .first-page-scroll-cue {
     position: fixed !important;

@@ -207,7 +207,56 @@
         // Watch for dynamically added content (React)
         watchForNewContent(sectionObserver);
 
+        ensureEnvelopeOpenCue();
         ensureFirstPageScrollCue();
+    }
+
+    /**
+     * Add an animated tap hint on the envelope screen.
+     */
+    function ensureEnvelopeOpenCue() {
+        if (document.querySelector('.envelope-open-cue')) return;
+
+        const cue = document.createElement('button');
+        cue.type = 'button';
+        cue.className = 'envelope-open-cue cinematic-skip';
+        cue.setAttribute('aria-label', 'اضغط على الظرف');
+        cue.innerHTML = '<span class="envelope-open-cue__arrow" aria-hidden="true"></span><span class="envelope-open-cue__label">اضغط على الظرف</span>';
+
+        let openingStarted = false;
+        const triggerEnvelope = () => {
+            openingStarted = true;
+            cue.classList.add('envelope-open-cue--hidden');
+            const intro = document.querySelector('#root .fixed.inset-0.z-50');
+            if (intro instanceof HTMLElement) {
+                intro.click();
+            }
+        };
+
+        cue.addEventListener('click', triggerEnvelope);
+        document.addEventListener('click', event => {
+            const target = event.target;
+            if (target instanceof Element && target.closest('#root .fixed.inset-0.z-50')) {
+                openingStarted = true;
+                cue.classList.add('envelope-open-cue--hidden');
+            }
+        }, { capture: true });
+
+        const updateVisibility = () => {
+            const invitationReady = !!document.querySelector('#root main');
+            const introVisible = !!document.querySelector('#root .fixed.inset-0.z-50');
+            cue.classList.toggle('envelope-open-cue--hidden', openingStarted || invitationReady || !introVisible);
+        };
+
+        const root = document.getElementById('root');
+        if (root) {
+            new MutationObserver(updateVisibility).observe(root, {
+                childList: true,
+                subtree: true
+            });
+        }
+        document.body.appendChild(cue);
+        updateVisibility();
     }
 
     /**
