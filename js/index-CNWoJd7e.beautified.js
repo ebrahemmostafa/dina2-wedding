@@ -32862,7 +32862,7 @@ function IV({
         children: [p.jsx("div", {
             className: "absolute inset-0",
             style: {
-                backgroundImage: `url(${yg.url})`,
+                backgroundImage: `url("assets/l5e-images/last_org.svg")`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
