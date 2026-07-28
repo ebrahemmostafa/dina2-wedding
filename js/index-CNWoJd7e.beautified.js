@@ -22500,9 +22500,10 @@ function B8({
             children: [p.jsx("img", {
                 src: "assets/l5e-images/letters_big.svg",
                 alt: "Letters",
-                className: "w-48 sm:w-56 md:w-64 mb-2 object-contain drop-shadow-md z-20 translate-y-6 md:translate-y-8"
+                className: "w-48 sm:w-56 md:w-64 mb-2 object-contain drop-shadow-md z-20",
+                style: { transform: "translateY(2rem)" }
             }), p.jsx("div", {
-                className: "-translate-y-10 md:-translate-y-12",
+                style: { transform: "translateY(-3rem)" },
                 children: p.jsx(uL, {
                     targetDate: e
                 })
@@ -22688,7 +22689,8 @@ function uL({
                 transition: {
                     duration: .7
                 },
-                className: "font-decorative text-3xl sm:text-4xl md:text-5xl text-black mb-2 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
+                className: "font-decorative text-3xl sm:text-4xl md:text-5xl mb-2 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
+                style: { color: "black" },
                 children: t("countdown.title")
             }), p.jsx(z.p, {
                 initial: {
@@ -22706,7 +22708,8 @@ function uL({
                     duration: .6,
                     delay: .1
                 },
-                className: "font-body text-lg md:text-xl text-black/80 mb-8",
+                className: "font-body text-lg md:text-xl mb-8",
+                style: { color: "rgba(0,0,0,0.8)" },
                 children: t("countdown.subtitle")
             }), p.jsx(z.div, {
                 initial: {
