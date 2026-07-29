@@ -22476,25 +22476,33 @@ function B8({
         t: o
     } = ht(), a = o("welcome.kicker"), l = o("welcome.title2"), c = o("welcome.p2"), u = t || "أكتوبر حي اوركييديا خلف مطعم واحه خطاب فيلا ٢٠", d = r || "https://maps.app.goo.gl/husp36rA4a3gxt887";
     return p.jsx("section", {
-        className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12 flex justify-center items-center",
-        children: p.jsx(z.img, {
-            src: "assets/l5e-images/background_orange.svg?v=1",
-            alt: "تفاصيل الدعوة",
-            initial: {
-                opacity: 0,
-                y: 20
-            },
-            whileInView: {
-                opacity: 1,
-                y: 0
-            },
-            viewport: {
-                once: !0
-            },
-            transition: {
-                duration: 1
-            },
-            className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[85vh] h-auto object-contain mx-auto px-4 drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
+        className: "relative overflow-hidden bg-[hsl(var(--ivory))] py-8 md:py-12 flex flex-col justify-center items-center",
+        children: p.jsxs("div", {
+            className: "relative w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto px-4 flex flex-col justify-center items-center",
+            children: [p.jsx(z.img, {
+                src: "assets/l5e-images/IDID.svg?v=1",
+                alt: "تفاصيل الدعوة",
+                initial: {
+                    opacity: 0,
+                    y: 20
+                },
+                whileInView: {
+                    opacity: 1,
+                    y: 0
+                },
+                viewport: {
+                    once: !0
+                },
+                transition: {
+                    duration: 1
+                },
+                className: "w-full max-h-[85vh] h-auto object-contain mx-auto drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
+            }), p.jsx("div", {
+                className: "absolute inset-x-0 bottom-[2%] flex flex-col justify-end items-center z-10 px-4 sm:px-6",
+                children: p.jsx(uL, {
+                    targetDate: e
+                })
+            })]
         })
     })
 }
@@ -22642,7 +22650,8 @@ function uL({
     return p.jsxs("section", {
         ref: i,
         id: "countdown",
-        className: "relative pt-6 pb-20 md:pt-8 md:pb-28 overflow-hidden -mt-px bg-ivory",
+        className: "relative pb-4 md:pb-6 overflow-hidden bg-transparent",
+        style: { marginTop: "-40px", paddingTop: "0" },
         children: [p.jsx("div", {
             className: "absolute inset-0 pointer-events-none",
             style: {
@@ -22659,31 +22668,7 @@ function uL({
                 boxShadow: "0 0 8px hsl(var(--candlelight))",
                 animationDelay: `${h.delay}s`
             }
-        }, f)), p.jsx(z.img, {
-            src: X8.url,
-            alt: "",
-            loading: "eager",
-            initial: {
-                x: "50%"
-            },
-            animate: a,
-            style: {
-                transformOrigin: "top left"
-            },
-            className: "absolute top-0 left-0 h-full w-auto max-w-[30%] md:max-w-[40%] select-none pointer-events-none opacity-95 z-[20] will-change-transform"
-        }), p.jsx(z.img, {
-            src: lL.url,
-            alt: "",
-            loading: "eager",
-            initial: {
-                x: "-50%"
-            },
-            animate: l,
-            style: {
-                transformOrigin: "top right"
-            },
-            className: "absolute top-0 right-0 h-full w-auto max-w-[30%] md:max-w-[40%] select-none pointer-events-none opacity-95 z-[20] will-change-transform"
-        }), p.jsxs("div", {
+        }, f)), p.jsxs("div", {
             className: "relative z-10 max-w-4xl mx-auto text-center px-4",
             children: [p.jsx(z.h2, {
                 initial: {
@@ -22700,7 +22685,8 @@ function uL({
                 transition: {
                     duration: .7
                 },
-                className: "font-decorative text-3xl sm:text-4xl md:text-5xl text-[hsl(var(--plum))] mb-2 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
+                className: "font-decorative text-lg sm:text-xl md:text-2xl mb-0.5 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
+                style: { color: "black" },
                 children: t("countdown.title")
             }), p.jsx(z.p, {
                 initial: {
@@ -22718,7 +22704,8 @@ function uL({
                     duration: .6,
                     delay: .1
                 },
-                className: "font-body text-lg md:text-xl text-[hsl(var(--plum))]/80 mb-8",
+                className: "font-body text-xs md:text-sm mb-2.5",
+                style: { color: "rgba(0,0,0,0.8)" },
                 children: t("countdown.subtitle")
             }), p.jsx(z.div, {
                 initial: {
@@ -22736,7 +22723,7 @@ function uL({
                     duration: .8,
                     delay: .2
                 },
-                className: "grid grid-cols-4 gap-2 md:gap-4 max-w-[66vw] md:max-w-[50vw] mx-auto items-center",
+                className: "grid grid-cols-4 gap-1.5 md:gap-2 max-w-[60vw] sm:max-w-[50vw] md:max-w-[40vw] mx-auto items-center",
                 children: c.map((h, f) => p.jsxs(z.div, {
                     initial: {
                         opacity: 0,
@@ -22753,12 +22740,15 @@ function uL({
                         duration: .5,
                         delay: .3 + f * .1
                     },
-                    className: "relative flex flex-col items-center justify-center w-full aspect-square py-4 bg-white/40 backdrop-blur-sm border-[1.5px] border-dashed border-[#e39158] rounded-xl shadow-sm",
+                    className: "relative flex flex-col items-center justify-center py-1.5 sm:py-2",
+                    style: { width: "100%", aspectRatio: "1/1", backgroundColor: "rgba(255,255,255,0.45)", border: "1px dashed #e39158", borderRadius: "10px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)" },
                     children: [p.jsx("span", {
-                        className: "block font-display text-4xl sm:text-5xl md:text-6xl text-[#e39158] leading-none",
+                        className: "block font-display leading-none",
+                        style: { color: "#e39158", fontSize: "clamp(1.1rem, 4vw, 1.8rem)" },
                         children: d(h.v)
                     }), p.jsx("span", {
-                        className: "block mt-1 md:mt-2 text-[10px] sm:text-[11px] tracking-[0.1em] sm:tracking-[0.15em] uppercase text-[hsl(var(--plum))]/90 font-body",
+                        className: "block font-body",
+                        style: { marginTop: "2px", fontSize: "8px", letterSpacing: "0.05em", textTransform: "uppercase", color: "rgba(0,0,0,0.55)" },
                         children: h.l
                     })]
                 }, h.l))
@@ -32870,64 +32860,18 @@ function IV({
         t: r,
         lang: s
     } = ht(), i = OV(n, s);
-    return p.jsxs("footer", {
-        className: "relative z-10 bg-[hsl(var(--ivory))] text-center py-12 md:py-16 overflow-hidden",
-        children: [p.jsx("div", {
-            className: "absolute inset-0",
-            style: {
-                backgroundImage: `url(${yg.url})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                opacity: .85
-            }
-        }), p.jsx("div", {
-            className: "absolute inset-x-0 top-0 h-12 pointer-events-none z-[1]",
-            style: {
-                background: "linear-gradient(to bottom, hsl(var(--ivory)) 0%, transparent 100%)",
-                WebkitBackdropFilter: "blur(3px)",
-                backdropFilter: "blur(3px)"
-            }
-        }), p.jsx("div", {
-            className: "absolute inset-x-0 bottom-0 h-12 pointer-events-none z-[1]",
-            style: {
-                background: "linear-gradient(to top, hsl(var(--ivory)) 0%, transparent 100%)",
-                WebkitBackdropFilter: "blur(3px)",
-                backdropFilter: "blur(3px)"
-            }
-        }), p.jsxs(z.div, {
-            initial: {
-                opacity: 0,
-                y: 20
-            },
-            whileInView: {
-                opacity: 1,
-                y: 0
-            },
-            viewport: {
-                once: !0
-            },
-            transition: {
-                duration: .8
-            },
-            className: "relative z-10 flex flex-col items-center",
-            children: [p.jsx("img", {
-                src: NV.url,
-                alt: "",
-                "aria-hidden": "true",
-                loading: "lazy",
-                className: "pointer-events-none select-none w-28 md:w-36 mb-4 opacity-95"
-            }), p.jsxs("p", {
-                className: "font-display italic text-2xl md:text-3xl text-[hsl(var(--plum))] mb-1",
-                children: [e, " & ", t]
-            }), p.jsx("p", {
-                className: "text-sm text-[hsl(var(--plum))]/90 font-body tracking-[0.3em] uppercase",
-                children: i
-            }), p.jsx("div", {
-                className: "gold-rule w-24 mx-auto mt-6"
-            })]
-        })]
-    })
+    return p.jsx("footer", {
+        className: "relative bg-[hsl(var(--ivory))] flex flex-col justify-center items-center py-8 md:py-12 overflow-hidden",
+        children: p.jsx(z.img, {
+            src: "assets/l5e-images/last_th.svg",
+            alt: "Footer Background",
+            initial: { opacity: 0, y: 20 },
+            whileInView: { opacity: 1, y: 0 },
+            viewport: { once: !0 },
+            transition: { duration: 1 },
+            className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[85vh] h-auto object-contain mx-auto px-4"
+        })
+    });
 }
 const $V = "b5fdc043-f751-4f85-9c38-56c809acef25",
     DV = "image/png",
@@ -33584,7 +33528,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
     oz = "cc720d6a-88ef-4db6-82b2-9219d43a20b8",
     az = "a/v1/cc720d6a-88ef-4db6-82b2-9219d43a20b8/4eb245b4-1929-45cc-b854-c19be74b61fc/ballerina.mp3",
     lz = 2872335,
-    cz = "./assets/l5e-audio/ballerina.mp3",
+    cz = "./assets/l5e-audio/wedding_music.mp3",
     uz = 1,
     dz = {
         asset_id: nz,
@@ -33604,15 +33548,20 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
             t
         } = ht(), [n, r] = g.useState(!0), [s, i] = g.useState(!1), o = g.useRef(null);
         g.useEffect(() => {
-            const u = new Audio(dz.url);
-            return u.loop = !0, u.volume = .6, o.current = u, () => {
-                u.pause(), o.current = null
+            const u = document.createElement("audio");
+            u.src = "./assets/final_audio.mp3";
+            u.loop = !0;
+            u.volume = .6;
+            u.style.display = "none";
+            document.body.appendChild(u);
+            return o.current = u, () => {
+                u.pause(), u.remove(), o.current = null
             }
         }, []);
         const a = () => {
-                const u = o.current;
-                u && (u.muted = s, u.play().catch(() => {}))
-            },
+            const u = o.current;
+            u && (u.muted = s, u.play().catch(function(err) { console.error("bg play error:", err) }))
+        },
             l = () => {
                 i(u => {
                     const d = !u;
@@ -33666,9 +33615,7 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                     mapsUrl: c.banquet_maps_url,
                     startTime: "20:00",
                     endTime: "02:00"
-                }), p.jsx(uL, {
-                    targetDate: c.wedding_date
-                }), p.jsx(DF, {}), p.jsx(_V, {}), p.jsx(SpecialNotesSection, {}), p.jsx(IV, {
+                }), p.jsx(DF, {}), p.jsx(IV, {
                     name1: c.couple_name_1,
                     name2: c.couple_name_2,
                     date: c.wedding_date

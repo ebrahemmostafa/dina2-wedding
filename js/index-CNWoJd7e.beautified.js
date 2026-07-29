@@ -22498,7 +22498,7 @@ function B8({
                 },
                 className: "w-full max-h-[85vh] h-auto object-contain mx-auto drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
             }), p.jsx("div", {
-                className: "absolute inset-x-0 bottom-[10%] flex flex-col justify-end items-center z-10 px-6 sm:px-8",
+                className: "absolute inset-x-0 bottom-[2%] flex flex-col justify-end items-center z-10 px-4 sm:px-6",
                 children: p.jsx(uL, {
                     targetDate: e
                 })
@@ -22685,7 +22685,7 @@ function uL({
                 transition: {
                     duration: .7
                 },
-                className: "font-decorative text-3xl sm:text-4xl md:text-5xl mb-2 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
+                className: "font-decorative text-lg sm:text-xl md:text-2xl mb-0.5 drop-shadow-[0_2px_18px_rgba(139,165,184,0.25)]",
                 style: { color: "black" },
                 children: t("countdown.title")
             }), p.jsx(z.p, {
@@ -22704,7 +22704,7 @@ function uL({
                     duration: .6,
                     delay: .1
                 },
-                className: "font-body text-lg md:text-xl mb-8",
+                className: "font-body text-xs md:text-sm mb-2.5",
                 style: { color: "rgba(0,0,0,0.8)" },
                 children: t("countdown.subtitle")
             }), p.jsx(z.div, {
@@ -22723,7 +22723,7 @@ function uL({
                     duration: .8,
                     delay: .2
                 },
-                className: "grid grid-cols-4 gap-2 md:gap-4 max-w-[66vw] md:max-w-[50vw] mx-auto items-center",
+                className: "grid grid-cols-4 gap-1.5 md:gap-2 max-w-[60vw] sm:max-w-[50vw] md:max-w-[40vw] mx-auto items-center",
                 children: c.map((h, f) => p.jsxs(z.div, {
                     initial: {
                         opacity: 0,
@@ -22740,15 +22740,15 @@ function uL({
                         duration: .5,
                         delay: .3 + f * .1
                     },
-                    className: "relative flex flex-col items-center justify-center py-4",
-                    style: { width: "100%", aspectRatio: "1/1", backgroundColor: "rgba(255,255,255,0.45)", border: "1.5px dashed #e39158", borderRadius: "12px", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" },
+                    className: "relative flex flex-col items-center justify-center py-1.5 sm:py-2",
+                    style: { width: "100%", aspectRatio: "1/1", backgroundColor: "rgba(255,255,255,0.45)", border: "1px dashed #e39158", borderRadius: "10px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)" },
                     children: [p.jsx("span", {
                         className: "block font-display leading-none",
-                        style: { color: "#e39158", fontSize: "clamp(2rem, 8vw, 3.5rem)" },
+                        style: { color: "#e39158", fontSize: "clamp(1.1rem, 4vw, 1.8rem)" },
                         children: d(h.v)
                     }), p.jsx("span", {
                         className: "block font-body",
-                        style: { marginTop: "6px", fontSize: "10px", letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(0,0,0,0.55)" },
+                        style: { marginTop: "2px", fontSize: "8px", letterSpacing: "0.05em", textTransform: "uppercase", color: "rgba(0,0,0,0.55)" },
                         children: h.l
                     })]
                 }, h.l))
