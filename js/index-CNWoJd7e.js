@@ -33614,19 +33614,19 @@ const nz = "4eb245b4-1929-45cc-b854-c19be74b61fc",
                     count: 10
                 }), p.jsx(jB, {
                     count: 3
-                }), p.jsx(NB, {}), p.jsx(_8, {
-                    name1: c.couple_name_1,
-                    name2: c.couple_name_2,
-                    date: c.wedding_date,
-                    subtitle: c.hero_subtitle,
-                    venue: c.banquet_location
-                }), p.jsx(B8, {
+                }), p.jsx(NB, {}), p.jsx(B8, {
                     date: c.wedding_date,
                     location: c.banquet_location,
                     address: c.banquet_address,
                     mapsUrl: c.banquet_maps_url,
                     startTime: "20:00",
                     endTime: "02:00"
+                }), p.jsx(_8, {
+                    name1: c.couple_name_1,
+                    name2: c.couple_name_2,
+                    date: c.wedding_date,
+                    subtitle: c.hero_subtitle,
+                    venue: c.banquet_location
                 }), p.jsx(DF, {}), p.jsx(IV, {
                     name1: c.couple_name_1,
                     name2: c.couple_name_2,
