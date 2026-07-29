@@ -32873,7 +32873,7 @@ function IV({
                 "aria-label": "اضغط هنا لظهور الموقع",
                 className: "block w-full cursor-pointer",
                 children: p.jsx(z.img, {
-                    src: "assets/l5e-images/Dena_isa.svg?v=1",
+                    src: "assets/l5e-images/yarab.svg?v=1",
                     alt: "Dina Isa Wedding Invitation",
                     initial: { opacity: 0, y: 20 },
                     whileInView: { opacity: 1, y: 0 },
