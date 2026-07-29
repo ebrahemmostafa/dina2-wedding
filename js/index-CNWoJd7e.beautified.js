@@ -32863,9 +32863,9 @@ function IV({
     } = ht(), i = OV(n, s);
     return p.jsx("footer", {
         className: "relative bg-[hsl(var(--ivory))] flex flex-col justify-center items-center py-8 md:py-12 overflow-hidden",
-        children: p.jsx("div", {
+        children: p.jsxs("div", {
             className: "relative w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto px-4 flex flex-col justify-center items-center",
-            children: p.jsx("a", {
+            children: [p.jsx("a", {
                 href: "https://maps.app.goo.gl/7hWm1rtFiG8CEgDo9",
                 target: "_blank",
                 rel: "noopener noreferrer",
@@ -32881,7 +32881,16 @@ function IV({
                     transition: { duration: 1 },
                     className: "w-full max-h-[85vh] h-auto object-contain mx-auto hover:opacity-95 transition-opacity"
                 })
-            })
+            }), p.jsxs("div", {
+                className: "mt-4 text-xs text-gray-500 font-sans",
+                children: ["made with love by ", p.jsx("a", {
+                    href: "https://ajwa2-collection.vercel.app/",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className: "underline hover:text-gray-700",
+                    children: "Ajwaa"
+                })]
+            })]
         })
     });
 }
