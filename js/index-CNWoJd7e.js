@@ -32863,14 +32863,25 @@ function IV({
     } = ht(), i = OV(n, s);
     return p.jsx("footer", {
         className: "relative bg-[hsl(var(--ivory))] flex flex-col justify-center items-center py-8 md:py-12 overflow-hidden",
-        children: p.jsx(z.img, {
-            src: "assets/l5e-images/last_th.svg",
-            alt: "Footer Background",
-            initial: { opacity: 0, y: 20 },
-            whileInView: { opacity: 1, y: 0 },
-            viewport: { once: !0 },
-            transition: { duration: 1 },
-            className: "w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl max-h-[85vh] h-auto object-contain mx-auto px-4"
+        children: p.jsxs("div", {
+            className: "relative w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto px-4 flex flex-col justify-center items-center",
+            children: [p.jsx(z.img, {
+                src: "assets/l5e-images/Dena_isa.svg?v=1",
+                alt: "Dina Isa Wedding Invitation",
+                initial: { opacity: 0, y: 20 },
+                whileInView: { opacity: 1, y: 0 },
+                viewport: { once: !0 },
+                transition: { duration: 1 },
+                className: "w-full max-h-[85vh] h-auto object-contain mx-auto"
+            }), p.jsx("a", {
+                href: "https://maps.app.goo.gl/7hWm1rtFiG8CEgDo9",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                title: "اضغط هنا لظهور الموقع",
+                "aria-label": "اضغط هنا لظهور الموقع",
+                className: "absolute inset-x-0 bottom-[5%] h-[35%] cursor-pointer z-20 block",
+                style: { left: "10%", right: "10%" }
+            })]
         })
     });
 }
