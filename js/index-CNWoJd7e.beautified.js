@@ -22496,9 +22496,9 @@ function B8({
                 transition: {
                     duration: 1
                 },
-                className: "w-full max-h-[85vh] h-auto object-contain mx-auto drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
+                className: "w-full max-h-[75vh] h-auto object-contain mx-auto drop-shadow-[0_4px_25px_rgba(255,255,255,0.7)]"
             }), p.jsx("div", {
-                className: "absolute inset-x-0 bottom-[2%] flex flex-col justify-end items-center z-10 px-4 sm:px-6",
+                className: "relative mt-4 sm:mt-6 w-full flex flex-col justify-center items-center z-10 px-4 sm:px-6",
                 children: p.jsx(uL, {
                     targetDate: e
                 })
